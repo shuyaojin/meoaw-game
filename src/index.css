@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-cat-white text-cat-dark font-sans;
+  background-image: radial-gradient(#ffb7b2 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+@layer utilities {
+  .animate-wiggle {
+    animation: wiggle 1s ease-in-out infinite;
+  }
+  .animate-pop {
+    animation: pop 0.3s ease-out;
+  }
+  .animate-tilt {
+    animation: tilt 0.5s ease-in-out;
+  }
+}
+
+@keyframes wiggle {
+  0%, 100% { transform: rotate(-3deg); }
+  50% { transform: rotate(3deg); }
+}
+
+@keyframes pop {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+@keyframes tilt {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(-10deg); }
+  75% { transform: rotate(10deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
