@@ -2,7 +2,26 @@ import React, { useState, useMemo } from 'react';
 import CatInputForm from './components/CatInputForm';
 import GameCard from './components/GameCard';
 import { GAMES } from './data/mockGames';
-import { ArrowUpDown, Flame, Star, DollarSign } from 'lucide-react';
+import { ArrowUpDown, Flame, Star, DollarSign, Cat } from 'lucide-react';
+
+function BackgroundDecorations() {
+  return (
+    <div className="fixed inset-0 pointer-events-none overflow-hidden z-0">
+      <div className="absolute top-20 left-10 text-cat-pink/20 transform rotate-12 animate-float" style={{ animationDelay: '0s' }}>
+        <Cat size={64} />
+      </div>
+      <div className="absolute top-40 right-20 text-cat-pink/20 transform -rotate-12 animate-float" style={{ animationDelay: '1s' }}>
+        <Cat size={48} />
+      </div>
+      <div className="absolute bottom-20 left-1/4 text-cat-pink/20 transform rotate-45 animate-float" style={{ animationDelay: '2s' }}>
+        <Cat size={56} />
+      </div>
+      <div className="absolute top-1/3 right-10 text-cat-pink/10 transform -rotate-12 animate-float" style={{ animationDelay: '1.5s' }}>
+        <Cat size={120} />
+      </div>
+    </div>
+  );
+}
 
 function App() {
   const [searchResults, setSearchResults] = useState([]);
@@ -78,20 +97,22 @@ function App() {
   }, [searchResults, sortType]);
 
   return (
-    <div className="min-h-screen pb-20">
+    <div className="min-h-screen pb-20 relative">
+      <BackgroundDecorations />
       {/* Header */}
       <header className="bg-white/90 backdrop-blur shadow-sm sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
           <h1 className="text-2xl font-bold text-cat-accent flex items-center gap-2">
-            🐾 Meaow Game Recommender
+            <Cat className="w-8 h-8" />
+            Meaow Game Recommender
           </h1>
-          <div className="text-sm text-gray-500 hidden md:block">
-            为主人服务的游戏管家喵～
+          <div className="text-sm text-gray-500 hidden md:block font-medium">
+            🐾 为主人服务的专属猫娘管家 🐾
           </div>
         </div>
       </header>
 
-      <main className="max-w-6xl mx-auto px-4 py-8 space-y-12">
+      <main className="max-w-6xl mx-auto px-4 py-8 space-y-12 relative z-10">
         {/* Input Section */}
         <section>
           <CatInputForm onSearch={handleSearch} />

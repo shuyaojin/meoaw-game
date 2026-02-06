@@ -8,6 +8,10 @@ const INTERACTIONS = [
   { action: 'bounce', text: '摸摸头～ (Pat!)' },
   { action: 'spin', text: '转圈圈～ (Spin!)' },
   { action: 'zoom', text: '靠近一点喵～' },
+  { action: 'wiggle', text: '蹭蹭～ (Rub rub)' },
+  { action: 'pop', text: '要吃小鱼干吗？' },
+  { action: 'tilt', text: '一直陪着你喵～' },
+  { action: 'bounce', text: '好开心喵！' },
 ];
 
 export default function InteractiveCatMaid() {
