@@ -62,8 +62,8 @@ export default function GameCard({ game }) {
             <TrendingUp className="w-3 h-3" />
             DAU: {(game.dau / 1000).toFixed(1)}k
           </span>
-          <span className="text-cat-accent font-medium cursor-pointer hover:underline">
-            查看详情 &gt;
+          <span className="text-cat-accent font-medium cursor-pointer hover:underline flex items-center gap-1">
+            查看详情 喵 <span className="text-lg">🐾</span>
           </span>
         </div>
       </div>
