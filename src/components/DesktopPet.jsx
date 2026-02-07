@@ -35,7 +35,14 @@ const MOODS = {
 };
 
 export default function DesktopPet({ mood = 'default' }) {
-  const [position, setPosition] = useState({ x: 20, y: window.innerHeight - 150 });
+  const [position, setPosition] = useState(() => {
+    // Check if mobile (md breakpoint is 768px)
+    const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
+    return { 
+      x: 20, 
+      y: isMobile ? 100 : (typeof window !== 'undefined' ? window.innerHeight - 150 : 500)
+    };
+  });
   const [isDragging, setIsDragging] = useState(false);
   const [dragOffset, setDragOffset] = useState({ x: 0, y: 0 });
   const [currentMessage, setCurrentMessage] = useState('');

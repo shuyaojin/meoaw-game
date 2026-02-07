@@ -107,10 +107,10 @@ export default function CatChat({ isOpen, onToggle, onAiCommand }) {
   };
 
   return (
-    <div className="fixed bottom-4 right-4 z-50 flex flex-col items-end">
+    <div className="fixed top-24 right-4 md:top-auto md:bottom-4 md:right-4 z-50 flex flex-col-reverse md:flex-col items-end gap-4 md:gap-0">
       {/* Chat Window */}
       {isOpen && (
-        <div className="mb-4 w-80 md:w-96 bg-white rounded-2xl shadow-2xl overflow-hidden border-2 border-cat-pink animate-fade-in-up">
+        <div className="mb-0 md:mb-4 w-80 md:w-96 bg-white rounded-2xl shadow-2xl overflow-hidden border-2 border-cat-pink animate-fade-in-up">
           {/* Header */}
           <div className="bg-cat-pink/20 p-3 flex items-center justify-between border-b border-cat-pink/10">
             <div className="flex items-center gap-2">
