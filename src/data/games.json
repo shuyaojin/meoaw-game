@@ -1,0 +1,1096 @@
+[
+  {
+    "id": 2900,
+    "title": "688(I) Hunter/Killer",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 66,
+    "discount": 0,
+    "rating": 0,
+    "tags": [
+      "Strategy",
+      "Single-player",
+      "Multi-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2900/header.jpg?t=1759950629",
+    "release_date": "26 Oct, 2006"
+  },
+  {
+    "id": 2710,
+    "title": "Act of War: Direct Action",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 23,
+    "discount": 0.6,
+    "rating": 8.2,
+    "tags": [
+      "Action",
+      "Single-player",
+      "Multi-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2710/header.jpg?t=1727869627",
+    "release_date": "12 Mar, 2008"
+  },
+  {
+    "id": 2780,
+    "title": "ARMA: Combat Operations",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 0,
+    "discount": 0,
+    "rating": 7.4,
+    "tags": [
+      "Action",
+      "Single-player",
+      "Multi-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2780/header.jpg?t=1712604482",
+    "release_date": "12 Mar, 2008"
+  },
+  {
+    "id": 1700,
+    "title": "Arx Fatalis",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 39,
+    "discount": 0,
+    "rating": 7.7,
+    "tags": [
+      "RPG",
+      "Single-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1700/header.jpg?t=1590704297",
+    "release_date": "3 Apr, 2007"
+  },
+  {
+    "id": 2640,
+    "title": "Call of Duty: United Offensive",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 150,
+    "discount": 0,
+    "rating": 8.7,
+    "tags": [
+      "Action",
+      "Single-player",
+      "Multi-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2640/header.jpg?t=1731699751",
+    "release_date": "13 Oct, 2006"
+  },
+  {
+    "id": 2620,
+    "title": "Call of Duty® (2003)",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 150,
+    "discount": 0,
+    "rating": 9.1,
+    "tags": [
+      "Action",
+      "Single-player",
+      "Multi-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2620/header.jpg?t=1731699308",
+    "release_date": "13 Oct, 2006"
+  },
+  {
+    "id": 2630,
+    "title": "Call of Duty® 2",
+    "platforms": [
+      "PC",
+      "Mac"
+    ],
+    "basePrice": 150,
+    "discount": 0,
+    "rating": 8.6,
+    "tags": [
+      "Action",
+      "Single-player",
+      "Multi-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2630/header.jpg?t=1731698337",
+    "release_date": "13 Oct, 2006"
+  },
+  {
+    "id": 3020,
+    "title": "Call of Juarez",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 70,
+    "discount": 0,
+    "rating": 7.2,
+    "tags": [
+      "Action",
+      "Single-player",
+      "Multi-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3020/header.jpg?t=1729249870",
+    "release_date": "8 Nov, 2007"
+  },
+  {
+    "id": 730,
+    "title": "Counter-Strike 2",
+    "platforms": [
+      "PC",
+      "Linux"
+    ],
+    "basePrice": 0,
+    "discount": 0,
+    "rating": 0,
+    "tags": [
+      "Action",
+      "Free To Play",
+      "Multi-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1749053861",
+    "release_date": "21 Aug, 2012"
+  },
+  {
+    "id": 1600,
+    "title": "Dangerous Waters",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 99,
+    "discount": 0,
+    "rating": 8.2,
+    "tags": [
+      "Strategy",
+      "Single-player",
+      "Multi-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1600/header.jpg?t=1759951459",
+    "release_date": "7 Feb, 2006"
+  },
+  {
+    "id": 2100,
+    "title": "Dark Messiah of Might & Magic",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 36,
+    "discount": 0,
+    "rating": 7.2,
+    "tags": [
+      "Action",
+      "RPG",
+      "Single-player",
+      "Multi-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2100/header.jpg?t=1765228880",
+    "release_date": "25 Oct, 2006"
+  },
+  {
+    "id": 1500,
+    "title": "Darwinia",
+    "platforms": [
+      "PC",
+      "Mac",
+      "Linux"
+    ],
+    "basePrice": 78,
+    "discount": 0,
+    "rating": 8.4,
+    "tags": [
+      "Indie",
+      "Strategy",
+      "Single-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1500/header.jpg?t=1770282275",
+    "release_date": "1 Dec, 2005"
+  },
+  {
+    "id": 1520,
+    "title": "DEFCON",
+    "platforms": [
+      "PC",
+      "Mac",
+      "Linux"
+    ],
+    "basePrice": 78,
+    "discount": 0,
+    "rating": 8.4,
+    "tags": [
+      "Indie",
+      "Strategy",
+      "Single-player",
+      "Multi-player",
+      "PvP",
+      "Online PvP",
+      "Co-op"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1520/header.jpg?t=1739091415",
+    "release_date": "29 Sep, 2006"
+  },
+  {
+    "id": 1640,
+    "title": "Disciples II: Gallean's Return",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 39,
+    "discount": 0,
+    "rating": 8.4,
+    "tags": [
+      "Strategy",
+      "Single-player",
+      "Multi-player",
+      "Co-op"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1640/header.jpg?t=1759955914",
+    "release_date": "6 Jul, 2006"
+  },
+  {
+    "id": 1630,
+    "title": "Disciples II: Rise of the Elves ",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 39,
+    "discount": 0,
+    "rating": 8,
+    "tags": [
+      "Strategy",
+      "Single-player",
+      "Multi-player",
+      "Co-op"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1630/18139052d97557c6f452b045a169b31c17890675/header.jpg?t=1764279401",
+    "release_date": "6 Jul, 2006"
+  },
+  {
+    "id": 2280,
+    "title": "DOOM + DOOM II",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 12.99,
+    "discount": 0.6,
+    "rating": 0,
+    "tags": [
+      "Action",
+      "Single-player",
+      "Multi-player",
+      "PvP",
+      "Online PvP",
+      "Co-op"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2280/header.jpg?t=1750785073",
+    "release_date": "3 Aug, 2007"
+  },
+  {
+    "id": 2300,
+    "title": "DOOM II",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 0,
+    "discount": 0,
+    "rating": 8.3,
+    "tags": [
+      "Action",
+      "Single-player",
+      "Multi-player",
+      "PvP",
+      "Co-op"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2300/header.jpg?t=1723132744",
+    "release_date": "3 Aug, 2007"
+  },
+  {
+    "id": 1900,
+    "title": "Earth 2160",
+    "platforms": [
+      "PC",
+      "Mac",
+      "Linux"
+    ],
+    "basePrice": 66,
+    "discount": 0,
+    "rating": 7.3,
+    "tags": [
+      "Strategy",
+      "Single-player",
+      "Multi-player",
+      "Co-op"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1900/header.jpg?t=1623327678",
+    "release_date": "1 Apr, 2006"
+  },
+  {
+    "id": 2990,
+    "title": "FlatOut 2",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 75,
+    "discount": 0,
+    "rating": 7.6,
+    "tags": [
+      "Racing",
+      "Single-player",
+      "Multi-player",
+      "PvP",
+      "Online PvP"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990/header.jpg?t=1765237363",
+    "release_date": "21 Dec, 2006"
+  },
+  {
+    "id": 2910,
+    "title": "Fleet Command",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 75,
+    "discount": 0,
+    "rating": 0,
+    "tags": [
+      "Strategy",
+      "Single-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2910/header.jpg?t=1759951826",
+    "release_date": "26 Oct, 2006"
+  },
+  {
+    "id": 3230,
+    "title": "Genesis Rising",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 39,
+    "discount": 0.75,
+    "rating": 5.7,
+    "tags": [
+      "Strategy",
+      "Single-player",
+      "Multi-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3230/header.jpg?t=1727863478",
+    "release_date": "6 Aug, 2007"
+  },
+  {
+    "id": 2610,
+    "title": "GUN™",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 150,
+    "discount": 0,
+    "rating": 7.6,
+    "tags": [
+      "Action",
+      "Single-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2610/header.jpg?t=1499877030",
+    "release_date": "13 Oct, 2006"
+  },
+  {
+    "id": 2390,
+    "title": "Heretic: Shadow of the Serpent Riders",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 0,
+    "discount": 0,
+    "rating": 0,
+    "tags": [
+      "Action",
+      "Single-player",
+      "Multi-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2390/header.jpg?t=1754581924",
+    "release_date": "3 Aug, 2007"
+  },
+  {
+    "id": 2360,
+    "title": "Hexen: Beyond Heretic",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 0,
+    "discount": 0,
+    "rating": 0,
+    "tags": [
+      "Action",
+      "Single-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2360/header.jpg?t=1754581933",
+    "release_date": "3 Aug, 2007"
+  },
+  {
+    "id": 2370,
+    "title": "Hexen: Deathkings of the Dark Citadel",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 0,
+    "discount": 0,
+    "rating": 0,
+    "tags": [
+      "Action",
+      "Single-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2370/header.jpg?t=1754581942",
+    "release_date": "3 Aug, 2007"
+  },
+  {
+    "id": 1670,
+    "title": "Iron Warriors: T-72 Tank Command ",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 39,
+    "discount": 0,
+    "rating": 5.6,
+    "tags": [
+      "Strategy",
+      "Single-player",
+      "Multi-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1670/header.jpg?t=1759952283",
+    "release_date": "26 Jul, 2006"
+  },
+  {
+    "id": 1620,
+    "title": "Jagged Alliance 2 Gold",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 119,
+    "discount": 0,
+    "rating": 0,
+    "tags": [
+      "Strategy",
+      "Single-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1620/header.jpg?t=1764098252",
+    "release_date": "6 Jul, 2006"
+  },
+  {
+    "id": 1250,
+    "title": "Killing Floor",
+    "platforms": [
+      "PC",
+      "Mac",
+      "Linux"
+    ],
+    "basePrice": 119,
+    "discount": 0,
+    "rating": 7.2,
+    "tags": [
+      "Action",
+      "Single-player",
+      "Multi-player",
+      "Co-op"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1250/header.jpg?t=1726777771",
+    "release_date": "14 May, 2009"
+  },
+  {
+    "id": 3170,
+    "title": "King's Bounty: Armored Princess",
+    "platforms": [
+      "PC",
+      "Mac"
+    ],
+    "basePrice": 66,
+    "discount": 0,
+    "rating": 8.2,
+    "tags": [
+      "RPG",
+      "Strategy",
+      "Single-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3170/62f947b3451b3f5dfb0fd5410408a4fee5036dff/header.jpg?t=1770390433",
+    "release_date": "19 Nov, 2009"
+  },
+  {
+    "id": 3130,
+    "title": "Men of War: Red Tide",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 33,
+    "discount": 0,
+    "rating": 7.7,
+    "tags": [
+      "Strategy",
+      "Single-player",
+      "PvP"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3130/7aeddc19b81225d2cd22fda69a9f97bc378d2ce1/header.jpg?t=1768394421",
+    "release_date": "1 Nov, 2009"
+  },
+  {
+    "id": 1530,
+    "title": "Multiwinia",
+    "platforms": [
+      "PC",
+      "Mac"
+    ],
+    "basePrice": 78,
+    "discount": 0,
+    "rating": 7.6,
+    "tags": [
+      "Indie",
+      "Single-player",
+      "Multi-player",
+      "PvP",
+      "Online PvP",
+      "Co-op"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1530/header.jpg?t=1739429210",
+    "release_date": "19 Sep, 2008"
+  },
+  {
+    "id": 620,
+    "title": "Portal 2",
+    "platforms": [
+      "PC",
+      "Linux"
+    ],
+    "basePrice": 66,
+    "discount": 0,
+    "rating": 9.5,
+    "tags": [
+      "Action",
+      "Adventure",
+      "Single-player",
+      "Multi-player",
+      "Co-op"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/620/header.jpg?t=1745363004",
+    "release_date": "18 Apr, 2011"
+  },
+  {
+    "id": 2310,
+    "title": "Quake",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 13.49,
+    "discount": 0.67,
+    "rating": 9.4,
+    "tags": [
+      "Action",
+      "Single-player",
+      "Multi-player",
+      "PvP",
+      "Online PvP",
+      "Co-op"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2310/header.jpg?t=1691683243",
+    "release_date": "3 Aug, 2007"
+  },
+  {
+    "id": 2210,
+    "title": "Quake 4",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 116,
+    "discount": 0.75,
+    "rating": 8.1,
+    "tags": [
+      "Action",
+      "Single-player",
+      "Multi-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2210/header.jpg?t=1664372514",
+    "release_date": "4 Aug, 2011"
+  },
+  {
+    "id": 2320,
+    "title": "Quake II",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 77,
+    "discount": 0.6,
+    "rating": 0,
+    "tags": [
+      "Action",
+      "Single-player",
+      "Multi-player",
+      "PvP",
+      "Online PvP",
+      "Co-op"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2320/header.jpg?t=1750784724",
+    "release_date": "3 Aug, 2007"
+  },
+  {
+    "id": 2200,
+    "title": "Quake III Arena",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 116,
+    "discount": 0.67,
+    "rating": 0,
+    "tags": [
+      "Action",
+      "Single-player",
+      "Multi-player",
+      "PvP",
+      "Online PvP"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2200/header.jpg?t=1664229254",
+    "release_date": "3 Aug, 2007"
+  },
+  {
+    "id": 1002,
+    "title": "Rag Doll Kung Fu",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 6,
+    "discount": 0,
+    "rating": 6.9,
+    "tags": [
+      "Indie",
+      "Single-player",
+      "Multi-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1002/header.jpg?t=1611415705",
+    "release_date": "12 Oct, 2005"
+  },
+  {
+    "id": 1200,
+    "title": "Red Orchestra: Ostfront 41-45",
+    "platforms": [
+      "PC",
+      "Mac",
+      "Linux"
+    ],
+    "basePrice": 28,
+    "discount": 0,
+    "rating": 8.1,
+    "tags": [
+      "Action",
+      "Multi-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1200/header.jpg?t=1551467896",
+    "release_date": "14 Mar, 2006"
+  },
+  {
+    "id": 2700,
+    "title": "RollerCoaster Tycoon® 3: Platinum",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 0,
+    "discount": 0,
+    "rating": 8.1,
+    "tags": [
+      "Simulation",
+      "Strategy",
+      "Single-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2700/header.jpg?t=1733161073",
+    "release_date": "12 Mar, 2008"
+  },
+  {
+    "id": 3260,
+    "title": "Safecracker: The Ultimate Puzzle Adventure",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 38,
+    "discount": 0,
+    "rating": 6.9,
+    "tags": [
+      "Adventure",
+      "Casual",
+      "Single-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3260/header.jpg?t=1726054434",
+    "release_date": "29 Aug, 2007"
+  },
+  {
+    "id": 1300,
+    "title": "SiN Episodes: Emergence",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 52,
+    "discount": 0.8,
+    "rating": 7.5,
+    "tags": [
+      "Action",
+      "Single-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1300/header.jpg?t=1765989543",
+    "release_date": "10 May, 2006"
+  },
+  {
+    "id": 1313,
+    "title": "SiN Gold",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 52,
+    "discount": 0.8,
+    "rating": 0,
+    "tags": [
+      "Action",
+      "Single-player",
+      "Multi-player",
+      "PvP",
+      "Online PvP"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313/header.jpg?t=1765989643",
+    "release_date": "18 Mar, 2020"
+  },
+  {
+    "id": 1840,
+    "title": "Source Filmmaker",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 0,
+    "discount": 0,
+    "rating": 0,
+    "tags": [
+      "Animation & Modeling",
+      "Video Production"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1840/header.jpg?t=1677267197",
+    "release_date": "10 Jul, 2012"
+  },
+  {
+    "id": 1610,
+    "title": "Space Empires IV Deluxe",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 75,
+    "discount": 0,
+    "rating": 7.9,
+    "tags": [
+      "Strategy",
+      "Single-player",
+      "Multi-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1610/header.jpg?t=1759953528",
+    "release_date": "7 Feb, 2006"
+  },
+  {
+    "id": 1690,
+    "title": "Space Empires V",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 99,
+    "discount": 0,
+    "rating": 6.8,
+    "tags": [
+      "Strategy",
+      "Single-player",
+      "Multi-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1690/header.jpg?t=1759953536",
+    "release_date": "16 Oct, 2006"
+  },
+  {
+    "id": 2920,
+    "title": "Sub Command",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 75,
+    "discount": 0,
+    "rating": 8.4,
+    "tags": [
+      "Strategy",
+      "Single-player",
+      "Multi-player",
+      "Co-op"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2920/header.jpg?t=1759953566",
+    "release_date": "26 Oct, 2006"
+  },
+  {
+    "id": 2400,
+    "title": "The Ship: Murder Party",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 75,
+    "discount": 0,
+    "rating": 7.6,
+    "tags": [
+      "Action",
+      "Indie",
+      "RPG",
+      "Single-player",
+      "Multi-player",
+      "PvP",
+      "Online PvP"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2400/header.jpg?t=1594373405",
+    "release_date": "11 Jul, 2006"
+  },
+  {
+    "id": 2420,
+    "title": "The Ship: Single Player",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 0,
+    "discount": 0,
+    "rating": 0,
+    "tags": [
+      "Action",
+      "Indie",
+      "RPG",
+      "Single-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2420/header.jpg?t=1447350944",
+    "release_date": "20 Nov, 2006"
+  },
+  {
+    "id": 2720,
+    "title": "ThreadSpace: Hyperbol",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 33,
+    "discount": 0,
+    "rating": 0,
+    "tags": [
+      "Action",
+      "Indie",
+      "Strategy",
+      "Multi-player",
+      "PvP",
+      "Online PvP",
+      "Co-op"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2720/header.jpg?t=1635471605",
+    "release_date": "12 Jul, 2007"
+  },
+  {
+    "id": 1930,
+    "title": "Two Worlds Epic Edition",
+    "platforms": [
+      "PC",
+      "Mac",
+      "Linux"
+    ],
+    "basePrice": 95,
+    "discount": 0,
+    "rating": 6.5,
+    "tags": [
+      "RPG",
+      "Single-player",
+      "Multi-player",
+      "PvP",
+      "Online PvP",
+      "Co-op"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1930/header.jpg?t=1694869345",
+    "release_date": "30 Apr, 2009"
+  },
+  {
+    "id": 1510,
+    "title": "Uplink",
+    "platforms": [
+      "PC",
+      "Mac",
+      "Linux"
+    ],
+    "basePrice": 78,
+    "discount": 0,
+    "rating": 7.5,
+    "tags": [
+      "Indie",
+      "Strategy",
+      "Single-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1510/header.jpg?t=1739068939",
+    "release_date": "23 Aug, 2006"
+  },
+  {
+    "id": 2600,
+    "title": "Vampire: The Masquerade - Bloodlines",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 150,
+    "discount": 0,
+    "rating": 8,
+    "tags": [
+      "Action",
+      "Single-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2600/header.jpg?t=1604376441",
+    "release_date": "22 Mar, 2007"
+  },
+  {
+    "id": 2270,
+    "title": "Wolfenstein 3D",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 39,
+    "discount": 0.8,
+    "rating": 0,
+    "tags": [
+      "Action",
+      "Single-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2270/header.jpg?t=1750784646",
+    "release_date": "3 Aug, 2007"
+  },
+  {
+    "id": 2870,
+    "title": "X Rebirth",
+    "platforms": [
+      "PC",
+      "Mac",
+      "Linux"
+    ],
+    "basePrice": 187,
+    "discount": 0.8,
+    "rating": 3.3,
+    "tags": [
+      "Action",
+      "Simulation",
+      "Single-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2870/header.jpg?t=1762271301",
+    "release_date": "15 Nov, 2013"
+  },
+  {
+    "id": 2840,
+    "title": "X: Beyond the Frontier",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 33,
+    "discount": 0.8,
+    "rating": 6.7,
+    "tags": [
+      "Simulation",
+      "Strategy",
+      "Single-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2840/header.jpg?t=1762272682",
+    "release_date": "8 Oct, 2010"
+  },
+  {
+    "id": 2850,
+    "title": "X: Tension",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 33,
+    "discount": 0.8,
+    "rating": 0,
+    "tags": [
+      "Simulation",
+      "Strategy",
+      "Single-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2850/header.jpg?t=1762271546",
+    "release_date": "8 Oct, 2010"
+  },
+  {
+    "id": 2800,
+    "title": "X2: The Threat",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 33,
+    "discount": 0.8,
+    "rating": 7.2,
+    "tags": [
+      "Strategy",
+      "Single-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2800/header.jpg?t=1762271718",
+    "release_date": "21 Jul, 2006"
+  },
+  {
+    "id": 2810,
+    "title": "X3: Reunion",
+    "platforms": [
+      "PC",
+      "Mac",
+      "Linux"
+    ],
+    "basePrice": 66,
+    "discount": 0.8,
+    "rating": 7.1,
+    "tags": [
+      "Strategy",
+      "Single-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2810/header.jpg?t=1762272013",
+    "release_date": "21 Jul, 2006"
+  },
+  {
+    "id": 2820,
+    "title": "X3: Terran Conflict",
+    "platforms": [
+      "PC",
+      "Mac",
+      "Linux"
+    ],
+    "basePrice": 102,
+    "discount": 0.8,
+    "rating": 7.3,
+    "tags": [
+      "Action",
+      "Simulation",
+      "Strategy",
+      "Single-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2820/header.jpg?t=1762272051",
+    "release_date": "16 Oct, 2008"
+  },
+  {
+    "id": 3010,
+    "title": "Xpand Rally",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 49,
+    "discount": 0,
+    "rating": 8.2,
+    "tags": [
+      "Racing",
+      "Single-player",
+      "Multi-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3010/header.jpg?t=1729249898",
+    "release_date": "24 Aug, 2006"
+  },
+  {
+    "id": 3050,
+    "title": "Xpand Rally Xtreme",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 49,
+    "discount": 0,
+    "rating": 0,
+    "tags": [
+      "Racing",
+      "Single-player",
+      "Multi-player"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3050/header.jpg?t=1729249907",
+    "release_date": "8 Oct, 2008"
+  }
+]

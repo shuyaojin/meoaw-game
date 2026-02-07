@@ -1,6 +1,9 @@
 import React, { useState, useMemo } from 'react';
 import CatInputForm from './components/CatInputForm';
 import GameCard from './components/GameCard';
+import PawCursor from './components/PawCursor';
+import CatChat from './components/CatChat';
+import DesktopPet from './components/DesktopPet';
 import { GAMES } from './data/mockGames';
 import { ArrowUpDown, Flame, Star, DollarSign, Cat } from 'lucide-react';
 
@@ -27,10 +30,27 @@ function App() {
   const [searchResults, setSearchResults] = useState([]);
   const [hasSearched, setHasSearched] = useState(false);
   const [sortType, setSortType] = useState('rating'); // rating, price_asc, price_desc, dau
+  const [isChatOpen, setIsChatOpen] = useState(false);
+  const [petMood, setPetMood] = useState('default');
 
   const handleSearch = (formData) => {
     setHasSearched(true);
     
+    // Determine Mood based on search terms
+    const searchStr = (formData.tags + ' ' + formData.expectations).toLowerCase();
+    
+    if (['horror', 'scary', 'zombie', '恐怖', '吓人', '鬼'].some(k => searchStr.includes(k))) {
+        setPetMood('horror');
+    } else if (['action', 'fight', 'shooter', '动作', '战斗', '射击'].some(k => searchStr.includes(k))) {
+        setPetMood('action');
+    } else if (['strategy', 'tactic', 'brain', '策略', '战棋', '脑'].some(k => searchStr.includes(k))) {
+        setPetMood('strategy');
+    } else if (['casual', 'relax', 'easy', '休闲', '轻松'].some(k => searchStr.includes(k))) {
+        setPetMood('casual');
+    } else {
+        setPetMood('default');
+    }
+
     // 1. Filter by Platform
     let filtered = GAMES.filter(g => g.platforms.includes(formData.platform));
 
@@ -70,6 +90,20 @@ function App() {
     setSearchResults(filtered);
   };
 
+  const handleAiCommand = (command) => {
+    if (command.type === 'sort') {
+      setSortType(command.value);
+    } else if (command.type === 'search') {
+      // Synthetic search
+      handleSearch({
+        platform: 'PC', // Default
+        tags: command.value,
+        expectations: '',
+        demand: ''
+      });
+    }
+  };
+
   const sortedGames = useMemo(() => {
     let sorted = [...searchResults];
     
@@ -98,6 +132,8 @@ function App() {
 
   return (
     <div className="min-h-screen pb-20 relative overflow-x-hidden">
+      <PawCursor />
+      <DesktopPet mood={petMood} />
       <BackgroundDecorations />
       {/* Header */}
       <header className="bg-white/90 backdrop-blur shadow-sm sticky top-0 z-50">
@@ -115,7 +151,7 @@ function App() {
       <main className="max-w-6xl mx-auto px-4 py-6 md:py-8 space-y-8 md:space-y-12 relative z-10">
         {/* Input Section */}
         <section>
-          <CatInputForm onSearch={handleSearch} />
+          <CatInputForm onSearch={handleSearch} onChatToggle={() => setIsChatOpen(true)} />
         </section>
 
         {/* Results Section */}
@@ -172,6 +208,12 @@ function App() {
           </section>
         )}
       </main>
+
+      <CatChat 
+        isOpen={isChatOpen} 
+        onToggle={() => setIsChatOpen(!isChatOpen)} 
+        onAiCommand={handleAiCommand} 
+      />
     </div>
   );
 }

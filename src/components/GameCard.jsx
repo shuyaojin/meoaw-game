@@ -1,18 +1,27 @@
-import React from 'react';
-import { Star, TrendingUp, DollarSign } from 'lucide-react';
+import React, { useState } from 'react';
+import { Star, TrendingUp, DollarSign, ImageOff } from 'lucide-react';
 
 export default function GameCard({ game }) {
   const finalPrice = game.basePrice * (1 - game.discount);
   const isDiscounted = game.discount > 0;
+  const [imgError, setImgError] = useState(false);
 
   return (
     <div className="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 border border-gray-100 group">
-      <div className="relative h-40 md:h-48 overflow-hidden">
-        <img 
-          src={game.cover} 
-          alt={game.title} 
-          className="w-full h-full object-cover transform group-hover:scale-110 transition-duration-500"
-        />
+      <div className="relative h-40 md:h-48 overflow-hidden bg-gray-100">
+        {!imgError ? (
+          <img 
+            src={game.cover || 'https://placehold.co/600x400/ffb7b2/ffffff?text=No+Image'} 
+            alt={game.title} 
+            className="w-full h-full object-cover transform group-hover:scale-110 transition-duration-500"
+            onError={() => setImgError(true)}
+          />
+        ) : (
+          <div className="w-full h-full flex flex-col items-center justify-center text-gray-400 bg-cat-pink/10">
+            <ImageOff size={32} />
+            <span className="text-xs mt-2">暂无图片</span>
+          </div>
+        )}
         {isDiscounted && (
           <div className="absolute top-2 right-2 bg-red-500 text-white font-bold px-2 py-0.5 md:px-3 md:py-1 rounded-full text-xs md:text-sm animate-bounce">
             -{Math.round(game.discount * 100)}% OFF

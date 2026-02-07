@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { MessageCircle } from 'lucide-react';
+import { MessageCircle, Heart } from 'lucide-react';
 
 const INTERACTIONS = [
   { action: 'wiggle', text: '喵呜？(Nya?)' },
@@ -14,9 +14,11 @@ const INTERACTIONS = [
   { action: 'bounce', text: '好开心喵！' },
 ];
 
-export default function InteractiveCatMaid() {
+export default function InteractiveCatMaid({ onChatToggle }) {
   const [interaction, setInteraction] = useState({ action: 'idle', text: '' });
   const [isHovered, setIsHovered] = useState(false);
+  const [hearts, setHearts] = useState([]);
+  const [clickCount, setClickCount] = useState(0);
 
   const avatarUrl = "/cat-maid.jpg";
 
@@ -35,13 +37,45 @@ export default function InteractiveCatMaid() {
     setInteraction(random);
   };
 
+  const handleClick = (e) => {
+    // Trigger interaction
+    triggerRandomInteraction();
+
+    // Toggle Chat if prop provided
+    if (onChatToggle) {
+        onChatToggle();
+    }
+    
+    // Add heart effect
+    const rect = e.currentTarget.getBoundingClientRect();
+    // Calculate position relative to the container
+    // Randomize slightly around the center
+    const x = 50 + (Math.random() * 40 - 20); 
+    const y = 50 + (Math.random() * 40 - 20);
+    
+    const newHeart = {
+      id: Date.now(),
+      x,
+      y,
+      color: Math.random() > 0.5 ? '#FFB6C1' : '#FF69B4' // Light pink or hot pink
+    };
+
+    setHearts(prev => [...prev, newHeart]);
+    setClickCount(prev => prev + 1);
+
+    // Remove heart after animation
+    setTimeout(() => {
+      setHearts(prev => prev.filter(h => h.id !== newHeart.id));
+    }, 1000);
+  };
+
   // 持续悬停时偶尔切换动作
   useEffect(() => {
     let interval;
     if (isHovered) {
       interval = setInterval(() => {
         if (Math.random() > 0.7) { // 30% chance to switch
-            triggerRandomInteraction();
+          triggerRandomInteraction();
         }
       }, 2000);
     }
@@ -62,10 +96,10 @@ export default function InteractiveCatMaid() {
 
   return (
     <div 
-      className="relative group cursor-pointer md:mr-4"
+      className="relative group cursor-pointer md:mr-4 select-none"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      onClick={triggerRandomInteraction}
+      onClick={handleClick}
     >
       {/* 对话气泡 */}
       <div className={`absolute -top-10 md:-top-12 left-1/2 transform -translate-x-1/2 bg-white px-2 py-1 md:px-3 md:py-1.5 rounded-2xl shadow-lg border border-cat-pink text-[10px] md:text-xs font-bold text-cat-accent whitespace-nowrap transition-all duration-300 z-10 ${isHovered ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-2 scale-90'}`}>
@@ -84,6 +118,32 @@ export default function InteractiveCatMaid() {
       
       {/* 装饰性光晕 */}
       <div className="absolute inset-0 rounded-full bg-cat-accent opacity-0 group-hover:opacity-10 transition-opacity duration-300 animate-pulse pointer-events-none"></div>
+
+      {/* 点击产生的小爱心 */}
+      {hearts.map(heart => (
+        <div
+          key={heart.id}
+          className="absolute pointer-events-none animate-float-up"
+          style={{
+            left: `${heart.x}%`,
+            top: `${heart.y}%`,
+            color: heart.color,
+            fontSize: '1.5rem'
+          }}
+        >
+          <Heart fill={heart.color} size={20} />
+        </div>
+      ))}
+
+      <style>{`
+        @keyframes float-up {
+          0% { opacity: 1; transform: translateY(0) scale(0.5); }
+          100% { opacity: 0; transform: translateY(-50px) scale(1.2); }
+        }
+        .animate-float-up {
+          animation: float-up 1s ease-out forwards;
+        }
+      `}</style>
     </div>
   );
 }
