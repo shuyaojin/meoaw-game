@@ -69,7 +69,7 @@ export default function CatInputForm({ onSearch, onChatToggle }) {
   const renderSelectionGroup = (options, field, variant = 'default') => (
     <div className={`grid gap-2 ${variant === 'primary' ? 'grid-cols-3' : 'grid-cols-3 md:grid-cols-4'}`}>
       {options.map((opt) => {
-        const isSelected = formData[field].includes(opt.label);
+        const isSelected = formData[field].includes(opt.id);
         const Icon = opt.icon;
         
         // Base classes
@@ -97,7 +97,7 @@ export default function CatInputForm({ onSearch, onChatToggle }) {
           <button
             key={opt.id}
             type="button"
-            onClick={() => toggleSelection(field, opt.label)}
+            onClick={() => toggleSelection(field, opt.id)}
             className={btnClasses}
           >
             {Icon && <Icon size={variant === 'primary' ? 18 : 14} className={isSelected ? 'text-white' : 'text-cat-pink/70'} />}
