@@ -3,31 +3,31 @@ import { Ghost, Sword, Brain, Coffee, Cat } from 'lucide-react';
 
 const MOODS = {
   default: {
-    icon: <Cat size={48} />,
+    Icon: Cat,
     color: 'bg-cat-pink',
     borderColor: 'border-cat-pink',
     message: '喵～有什么吩咐吗？'
   },
   horror: {
-    icon: <Ghost size={48} />,
+    Icon: Ghost,
     color: 'bg-purple-500',
     borderColor: 'border-purple-600',
     message: '呜... 好黑... 好怕怕...'
   },
   action: {
-    icon: <Sword size={48} />,
+    Icon: Sword,
     color: 'bg-red-500',
     borderColor: 'border-red-600',
     message: '战斗！爽！'
   },
   strategy: {
-    icon: <Brain size={48} />,
+    Icon: Brain,
     color: 'bg-blue-500',
     borderColor: 'border-blue-600',
     message: '一切都在计划之中...'
   },
   casual: {
-    icon: <Coffee size={48} />,
+    Icon: Coffee,
     color: 'bg-green-400',
     borderColor: 'border-green-500',
     message: '摸鱼时间到～'
@@ -108,13 +108,13 @@ export default function DesktopPet({ mood = 'default' }) {
 
       {/* Avatar */}
       <div 
-        className={`w-24 h-24 rounded-full ${currentMood.color} border-4 ${currentMood.borderColor} shadow-xl flex items-center justify-center text-white animate-bounce-slow hover:scale-110 transition-all duration-300 relative overflow-hidden`}
+        className={`w-14 h-14 md:w-24 md:h-24 rounded-full ${currentMood.color} border-2 md:border-4 ${currentMood.borderColor} shadow-xl flex items-center justify-center text-white animate-bounce-slow hover:scale-110 transition-all duration-300 relative overflow-hidden`}
         onClick={() => {
             setShowMessage(true);
             setTimeout(() => setShowMessage(false), 3000);
         }}
       >
-        {currentMood.icon}
+        <currentMood.Icon className="w-8 h-8 md:w-12 md:h-12" />
         
         {/* Shine effect */}
         <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-white opacity-20 rounded-bl-full"></div>
