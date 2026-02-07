@@ -59,7 +59,7 @@ function App() {
       formData.tags, 
       formData.expectations, 
       formData.demand
-    ].join(' ').toLowerCase();
+    ].join(' ').toLowerCase().trim();
 
     // Check for discount keywords
     const wantsDiscount = ['sale', 'discount', 'cheap', 'offer', '促销', '打折', '便宜'].some(k => searchTerms.includes(k));
@@ -78,14 +78,17 @@ function App() {
 
       // Boost discounted games if requested or generally good
       if (game.discount > 0) {
-        score += wantsDiscount ? 20 : 5; 
+        score += wantsDiscount ? 20 : 0; // Only boost discount if requested, otherwise it's just a nice to have but shouldn't override relevance
       }
 
       return { ...game, matchScore: score };
     });
 
-    // Filter out zero matches if search terms exist, but keep all if generic
-    // Actually, for a recommender, we should just return everything sorted by relevance if no hard filters fail
+    // Filter out zero matches if search terms exist
+    // If user selected tags, they expect to see ONLY relevant games
+    if (searchTerms.length > 0) {
+      filtered = filtered.filter(game => game.matchScore > 0);
+    }
     
     setSearchResults(filtered);
   };
