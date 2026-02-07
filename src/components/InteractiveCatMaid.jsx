@@ -14,7 +14,7 @@ const INTERACTIONS = [
   { action: 'bounce', text: '好开心喵！' },
 ];
 
-export default function InteractiveCatMaid({ onChatToggle }) {
+export default function InteractiveCatMaid() {
   const [interaction, setInteraction] = useState({ action: 'idle', text: '' });
   const [isHovered, setIsHovered] = useState(false);
   const [hearts, setHearts] = useState([]);
@@ -41,11 +41,6 @@ export default function InteractiveCatMaid({ onChatToggle }) {
     // Trigger interaction
     triggerRandomInteraction();
 
-    // Toggle Chat if prop provided
-    if (onChatToggle) {
-        onChatToggle();
-    }
-    
     // Add heart effect
     const rect = e.currentTarget.getBoundingClientRect();
     // Calculate position relative to the container

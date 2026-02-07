@@ -2,7 +2,6 @@ import React, { useState, useMemo } from 'react';
 import CatInputForm from './components/CatInputForm';
 import GameCard from './components/GameCard';
 import PawCursor from './components/PawCursor';
-import CatChat from './components/CatChat';
 import DesktopPet from './components/DesktopPet';
 import { GAMES } from './data/mockGames';
 import { ArrowUpDown, Flame, Star, DollarSign, Cat } from 'lucide-react';
@@ -30,7 +29,6 @@ function App() {
   const [searchResults, setSearchResults] = useState([]);
   const [hasSearched, setHasSearched] = useState(false);
   const [sortType, setSortType] = useState('rating'); // rating, price_asc, price_desc, dau
-  const [isChatOpen, setIsChatOpen] = useState(false);
   const [petMood, setPetMood] = useState('default');
 
   const handleSearch = (formData) => {
@@ -121,20 +119,6 @@ function App() {
     setSearchResults(filtered);
   };
 
-  const handleAiCommand = (command) => {
-    if (command.type === 'sort') {
-      setSortType(command.value);
-    } else if (command.type === 'search') {
-      // Synthetic search
-      handleSearch({
-        platform: 'PC', // Default
-        tags: command.value,
-        expectations: '',
-        demand: ''
-      });
-    }
-  };
-
   const sortedGames = useMemo(() => {
     let sorted = [...searchResults];
     
@@ -182,7 +166,7 @@ function App() {
       <main className="max-w-6xl mx-auto px-4 py-6 md:py-8 space-y-8 md:space-y-12 relative z-10">
         {/* Input Section */}
         <section>
-          <CatInputForm onSearch={handleSearch} onChatToggle={() => setIsChatOpen(true)} />
+          <CatInputForm onSearch={handleSearch} />
         </section>
 
         {/* Results Section */}
@@ -239,12 +223,6 @@ function App() {
           </section>
         )}
       </main>
-
-      <CatChat 
-        isOpen={isChatOpen} 
-        onToggle={() => setIsChatOpen(!isChatOpen)} 
-        onAiCommand={handleAiCommand} 
-      />
     </div>
   );
 }

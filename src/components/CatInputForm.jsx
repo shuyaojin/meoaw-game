@@ -38,7 +38,7 @@ const DEMAND_OPTIONS = [
   { id: 'Low Spec', label: '低配畅玩', icon: Feather }
 ];
 
-export default function CatInputForm({ onSearch, onChatToggle }) {
+export default function CatInputForm({ onSearch }) {
   const [formData, setFormData] = useState({
     platform: 'PC',
     tags: [],
@@ -117,7 +117,7 @@ export default function CatInputForm({ onSearch, onChatToggle }) {
       
       <div className="relative z-10 bg-white/90 backdrop-blur-sm p-4 md:p-8 rounded-3xl shadow-xl border-4 border-cat-pink">
         <div className="flex flex-col md:flex-row items-center justify-center mb-6 md:mb-8 gap-4 md:gap-0">
-          <InteractiveCatMaid onChatToggle={onChatToggle} />
+          <InteractiveCatMaid />
           <h2 className="text-xl md:text-3xl font-bold text-cat-accent text-center md:text-left">
             主人，想玩什么游戏喵？
           </h2>
