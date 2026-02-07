@@ -39,3 +39,14 @@
 - `src/components/GameCard.jsx`: 游戏展示卡片
 - `src/data/mockGames.js`: 模拟的游戏数据库
 - `src/App.jsx`: 主逻辑与布局
+
+## ☁️ 部署 (Zeabur)
+
+本项目支持一键部署到 Zeabur。
+
+1. 登录 [Zeabur Dashboard](https://dash.zeabur.com)。
+2. 创建新项目。
+3. 点击 "新建服务" -> "Git" -> 选择您的 GitHub 仓库 (`meoaw-game`)。
+4. Zeabur 会自动识别 Vite 项目并开始构建。
+5. 构建完成后，在 "域名" 选项卡中绑定一个免费域名即可访问！
+
