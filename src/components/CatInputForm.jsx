@@ -1,20 +1,87 @@
 import React, { useState } from 'react';
 import { PLATFORMS } from '../data/mockGames';
-import { Search, Heart, Sparkles, Gamepad2, Cat } from 'lucide-react';
+import { Search, Heart, Sparkles, Gamepad2, Cat, Check } from 'lucide-react';
 import InteractiveCatMaid from './InteractiveCatMaid';
+
+const TAG_OPTIONS = [
+  { id: 'Action', label: '动作' },
+  { id: 'Adventure', label: '冒险' },
+  { id: 'RPG', label: '角色扮演' },
+  { id: 'Strategy', label: '策略' },
+  { id: 'Simulation', label: '模拟' },
+  { id: 'Sports', label: '体育' },
+  { id: 'Racing', label: '竞速' },
+  { id: 'Casual', label: '休闲' },
+  { id: 'Horror', label: '恐怖' }
+];
+
+const EXPECTATION_OPTIONS = [
+  { id: 'Story', label: '剧情丰富' },
+  { id: 'Open World', label: '开放世界' },
+  { id: 'Multiplayer', label: '多人联机' },
+  { id: 'Graphics', label: '画面精美' },
+  { id: 'Hardcore', label: '高难度' },
+  { id: 'Relaxing', label: '轻松解压' },
+  { id: 'Indie', label: '独立精品' }
+];
+
+const DEMAND_OPTIONS = [
+  { id: 'Sale', label: '正在打折' },
+  { id: 'Free', label: '免费游玩' },
+  { id: 'Positive', label: '好评如潮' },
+  { id: 'Trending', label: '近期热门' },
+  { id: 'Low Spec', label: '低配畅玩' }
+];
 
 export default function CatInputForm({ onSearch, onChatToggle }) {
   const [formData, setFormData] = useState({
     platform: 'PC',
-    tags: '',
-    expectations: '',
-    demand: ''
+    tags: [],
+    expectations: [],
+    demand: []
   });
+
+  const toggleSelection = (field, value) => {
+    setFormData(prev => {
+      const current = prev[field];
+      const newArray = current.includes(value)
+        ? current.filter(item => item !== value)
+        : [...current, value];
+      return { ...prev, [field]: newArray };
+    });
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    onSearch(formData);
+    onSearch({
+      platform: formData.platform,
+      tags: formData.tags.join(' '),
+      expectations: formData.expectations.join(' '),
+      demand: formData.demand.join(' ')
+    });
   };
+
+  const renderSelectionGroup = (options, field, icon) => (
+    <div className="grid grid-cols-3 md:grid-cols-4 gap-2">
+      {options.map((opt) => {
+        const isSelected = formData[field].includes(opt.label);
+        return (
+          <button
+            key={opt.id}
+            type="button"
+            onClick={() => toggleSelection(field, opt.label)}
+            className={`py-2 px-1 md:px-3 rounded-lg border transition-all text-xs md:text-sm flex items-center justify-center gap-1
+              ${isSelected 
+                ? 'bg-cat-pink text-white border-cat-pink shadow-md transform scale-105' 
+                : 'bg-white border-gray-200 text-gray-600 hover:border-cat-pink/50 hover:bg-cat-pink/5'}`}
+          >
+            {isSelected && <Check size={12} />}
+            {opt.label}
+          </button>
+        );
+      })}
+    </div>
+  );
 
   return (
     <div className="relative max-w-2xl mx-auto transform hover:scale-[1.01] transition-all duration-300">
@@ -61,16 +128,7 @@ export default function CatInputForm({ onSearch, onChatToggle }) {
               <Heart className="w-4 h-4 md:w-5 md:h-5 text-cat-pink" />
               2. 您的属性标签是？ (Personal Tags)
             </label>
-            <div className="relative">
-              <input
-                type="text"
-                placeholder="例如：休闲, 硬核, 二次元..."
-                className="w-full px-3 md:px-4 py-2 md:py-3 pl-9 md:pl-10 rounded-xl border-2 border-cat-pink/30 focus:border-cat-accent focus:ring-4 focus:ring-cat-pink/20 outline-none transition-all placeholder-gray-400 text-sm md:text-base"
-                value={formData.tags}
-                onChange={(e) => setFormData({ ...formData, tags: e.target.value })}
-              />
-              <span className="absolute left-3 top-1/2 transform -translate-y-1/2 text-lg md:text-xl">🐾</span>
-            </div>
+            {renderSelectionGroup(TAG_OPTIONS, 'tags')}
           </div>
 
           {/* Expectations */}
@@ -79,16 +137,7 @@ export default function CatInputForm({ onSearch, onChatToggle }) {
               <Sparkles className="w-4 h-4 md:w-5 md:h-5 text-cat-pink" />
               3. 对游戏的期待喵？ (Expectations)
             </label>
-            <div className="relative">
-              <input
-                type="text"
-                placeholder="例如：开放世界, 剧情丰富..."
-                className="w-full px-3 md:px-4 py-2 md:py-3 pl-9 md:pl-10 rounded-xl border-2 border-cat-pink/30 focus:border-cat-accent focus:ring-4 focus:ring-cat-pink/20 outline-none transition-all placeholder-gray-400 text-sm md:text-base"
-                value={formData.expectations}
-                onChange={(e) => setFormData({ ...formData, expectations: e.target.value })}
-              />
-              <span className="absolute left-3 top-1/2 transform -translate-y-1/2 text-lg md:text-xl">🐱</span>
-            </div>
+            {renderSelectionGroup(EXPECTATION_OPTIONS, 'expectations')}
           </div>
 
           {/* Current Demand */}
@@ -97,16 +146,7 @@ export default function CatInputForm({ onSearch, onChatToggle }) {
               <Search className="w-4 h-4 md:w-5 md:h-5 text-cat-pink" />
               4. 当前有什么特别需求吗？ (Current Demand)
             </label>
-            <div className="relative">
-              <input
-                type="text"
-                placeholder="例如：打折, 便宜, 热门..."
-                className="w-full px-3 md:px-4 py-2 md:py-3 pl-9 md:pl-10 rounded-xl border-2 border-cat-pink/30 focus:border-cat-accent focus:ring-4 focus:ring-cat-pink/20 outline-none transition-all placeholder-gray-400 text-sm md:text-base"
-                value={formData.demand}
-                onChange={(e) => setFormData({ ...formData, demand: e.target.value })}
-              />
-              <span className="absolute left-3 top-1/2 transform -translate-y-1/2 text-lg md:text-xl">✨</span>
-            </div>
+            {renderSelectionGroup(DEMAND_OPTIONS, 'demand')}
           </div>
 
           <button
