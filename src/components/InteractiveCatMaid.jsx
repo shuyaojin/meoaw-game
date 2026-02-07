@@ -62,19 +62,19 @@ export default function InteractiveCatMaid() {
 
   return (
     <div 
-      className="relative group cursor-pointer mr-4"
+      className="relative group cursor-pointer md:mr-4"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       onClick={triggerRandomInteraction}
     >
       {/* 对话气泡 */}
-      <div className={`absolute -top-12 left-1/2 transform -translate-x-1/2 bg-white px-3 py-1.5 rounded-2xl shadow-lg border border-cat-pink text-xs font-bold text-cat-accent whitespace-nowrap transition-all duration-300 z-10 ${isHovered ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-2 scale-90'}`}>
+      <div className={`absolute -top-10 md:-top-12 left-1/2 transform -translate-x-1/2 bg-white px-2 py-1 md:px-3 md:py-1.5 rounded-2xl shadow-lg border border-cat-pink text-[10px] md:text-xs font-bold text-cat-accent whitespace-nowrap transition-all duration-300 z-10 ${isHovered ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-2 scale-90'}`}>
         {interaction.text || "喵～"}
         <div className="absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-2 h-2 bg-white border-r border-b border-cat-pink rotate-45"></div>
       </div>
 
       {/* 头像容器 */}
-      <div className={`w-24 h-24 rounded-full border-4 border-cat-pink bg-cat-white overflow-hidden shadow-md transition-all duration-300 ${getAnimationClass()}`}>
+      <div className={`w-16 h-16 md:w-24 md:h-24 rounded-full border-2 md:border-4 border-cat-pink bg-cat-white overflow-hidden shadow-md transition-all duration-300 ${getAnimationClass()}`}>
         <img 
           src={avatarUrl} 
           alt="Cat Maid" 
