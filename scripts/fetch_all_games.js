@@ -75,7 +75,8 @@ async function fetchBatchDetails(apps) {
   
   while (retries < 5) {
     try {
-      const url = `${STEAM_APP_DETAILS}?appids=${idsStr}`;
+      // Add cc=cn parameter to get prices in RMB (CNY)
+      const url = `${STEAM_APP_DETAILS}?appids=${idsStr}&cc=cn`;
       const { data } = await axios.get(url, {
         headers: {
           'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'

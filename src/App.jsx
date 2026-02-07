@@ -55,39 +55,67 @@ function App() {
     let filtered = GAMES.filter(g => g.platforms.includes(formData.platform));
 
     // 2. Text Analysis & Scoring
-    const searchTerms = [
-      formData.tags, 
-      formData.expectations, 
-      formData.demand
-    ].join(' ').toLowerCase().trim();
-
+    
+    // Split tags into "Hard Filters" (Genres) and "Soft Filters" (Expectations/Demand)
+    // Note: formData.tags comes in as a space-separated string from the form submit handler
+    const genreTags = formData.tags ? formData.tags.split(' ').filter(t => t) : [];
+    const otherTags = [formData.expectations, formData.demand].join(' ').toLowerCase().trim();
+    
     // Check for discount keywords
-    const wantsDiscount = ['sale', 'discount', 'cheap', 'offer', '促销', '打折', '便宜'].some(k => searchTerms.includes(k));
+    const wantsDiscount = ['sale', 'discount', 'cheap', 'offer', '促销', '打折', '便宜'].some(k => otherTags.includes(k));
 
+    // First, apply HARD filtering for Genres
+    // If user selected Genres, game MUST match at least one of them
+    if (genreTags.length > 0) {
+      filtered = filtered.filter(game => {
+        const gameTags = game.tags.join(' ').toLowerCase();
+        // Check if game matches ANY of the selected genres
+        return genreTags.some(genre => gameTags.includes(genre.toLowerCase()));
+      });
+    }
+
+    // Then apply scoring based on ALL criteria
     filtered = filtered.map(game => {
       let score = 0;
       const gameText = (game.tags.join(' ') + ' ' + game.title).toLowerCase();
       
-      // Keyword matching
-      if (searchTerms) {
-        const terms = searchTerms.split(/[\s,，]+/); // Split by space or comma
+      // Score for Genres (give them high weight to sort relevant genres to top)
+      genreTags.forEach(tag => {
+        if (gameText.includes(tag.toLowerCase())) score += 10;
+      });
+
+      // Score for Other Tags (Expectations/Demand)
+      if (otherTags) {
+        const terms = otherTags.split(/[\s,，]+/); 
         terms.forEach(term => {
           if (term && gameText.includes(term)) score += 5;
         });
       }
 
-      // Boost discounted games if requested or generally good
+      // Boost discounted games if requested
       if (game.discount > 0) {
-        score += wantsDiscount ? 20 : 0; // Only boost discount if requested, otherwise it's just a nice to have but shouldn't override relevance
+        score += wantsDiscount ? 20 : 0; 
       }
 
       return { ...game, matchScore: score };
     });
 
-    // Filter out zero matches if search terms exist
-    // If user selected tags, they expect to see ONLY relevant games
-    if (searchTerms.length > 0) {
-      filtered = filtered.filter(game => game.matchScore > 0);
+    // Final cleanup: If we have ANY search criteria, filter out completely irrelevant games (score 0)
+    // unless we only had hard filters which are already applied.
+    const hasSearchCriteria = genreTags.length > 0 || otherTags.length > 0;
+    
+    if (hasSearchCriteria) {
+      // If we only have genres, the hard filter above handled it.
+      // If we have other tags, we want to ensure we don't show random games that only matched the genre but not the expectation?
+      // Actually, standard behavior is: Hard Filter (Genre) AND Soft Sort (Expectations).
+      // So if I select "Action" + "Story", I want Action games, sorted by Story.
+      // Games with score 0 should theoretically be filtered out IF they didn't match the Hard Filter.
+      // But since we already hard filtered, any remaining game is valid by Genre.
+      // If NO genre selected, then we rely on Score > 0.
+      
+      if (genreTags.length === 0) {
+         filtered = filtered.filter(game => game.matchScore > 0);
+      }
     }
     
     setSearchResults(filtered);

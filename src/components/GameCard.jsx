@@ -49,11 +49,11 @@ export default function GameCard({ game }) {
           <div className="text-right">
             {isDiscounted ? (
               <div className="flex flex-col items-end">
-                <span className="text-[10px] md:text-xs text-gray-400 line-through">${game.basePrice}</span>
-                <span className="text-red-500 font-bold text-base md:text-lg">${finalPrice.toFixed(2)}</span>
+                <span className="text-[10px] md:text-xs text-gray-400 line-through">¥{game.basePrice}</span>
+                <span className="text-red-500 font-bold text-base md:text-lg">¥{finalPrice.toFixed(2)}</span>
               </div>
             ) : (
-              <span className="text-gray-700 font-bold text-base md:text-lg">${game.basePrice}</span>
+              <span className="text-gray-700 font-bold text-base md:text-lg">¥{game.basePrice}</span>
             )}
           </div>
         </div>

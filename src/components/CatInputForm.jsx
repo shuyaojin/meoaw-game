@@ -66,24 +66,43 @@ export default function CatInputForm({ onSearch, onChatToggle }) {
     });
   };
 
-  const renderSelectionGroup = (options, field, icon) => (
-    <div className="grid grid-cols-3 md:grid-cols-4 gap-2">
+  const renderSelectionGroup = (options, field, variant = 'default') => (
+    <div className={`grid gap-2 ${variant === 'primary' ? 'grid-cols-3' : 'grid-cols-3 md:grid-cols-4'}`}>
       {options.map((opt) => {
         const isSelected = formData[field].includes(opt.label);
         const Icon = opt.icon;
+        
+        // Base classes
+        let btnClasses = "rounded-lg border transition-all flex items-center justify-center gap-1.5 ";
+        
+        // Variant sizing
+        if (variant === 'primary') {
+          btnClasses += "py-3 px-2 md:px-4 text-sm md:text-base font-medium shadow-sm hover:scale-[1.02] ";
+        } else {
+          btnClasses += "py-2 px-1 md:px-3 text-xs md:text-sm ";
+        }
+
+        // Selection State
+        if (isSelected) {
+          btnClasses += variant === 'primary' 
+            ? 'bg-cat-accent text-white border-cat-accent ring-2 ring-cat-pink/30 scale-105 ' 
+            : 'bg-cat-pink/80 text-white border-cat-pink shadow-md transform scale-105 ';
+        } else {
+          btnClasses += variant === 'primary'
+            ? 'bg-white border-gray-200 text-gray-700 hover:border-cat-pink hover:bg-cat-pink/5 '
+            : 'bg-white/80 border-gray-100 text-gray-500 hover:border-cat-pink/30 hover:bg-cat-pink/5 ';
+        }
+
         return (
           <button
             key={opt.id}
             type="button"
             onClick={() => toggleSelection(field, opt.label)}
-            className={`py-2 px-1 md:px-3 rounded-lg border transition-all text-xs md:text-sm flex items-center justify-center gap-1.5
-              ${isSelected 
-                ? 'bg-cat-pink text-white border-cat-pink shadow-md transform scale-105' 
-                : 'bg-white border-gray-200 text-gray-600 hover:border-cat-pink/50 hover:bg-cat-pink/5'}`}
+            className={btnClasses}
           >
-            {Icon && <Icon size={14} className={isSelected ? 'text-white' : 'text-cat-pink/70'} />}
+            {Icon && <Icon size={variant === 'primary' ? 18 : 14} className={isSelected ? 'text-white' : 'text-cat-pink/70'} />}
             {opt.label}
-            {isSelected && <Check size={12} className="ml-0.5" />}
+            {isSelected && <Check size={variant === 'primary' ? 16 : 12} className="ml-0.5" />}
           </button>
         );
       })}
@@ -131,29 +150,31 @@ export default function CatInputForm({ onSearch, onChatToggle }) {
 
           {/* Personal Tags */}
           <div className="space-y-2">
-            <label className="block text-cat-dark font-bold flex items-center gap-2 text-sm md:text-base">
-              <Heart className="w-4 h-4 md:w-5 md:h-5 text-cat-pink" />
-              2. 您的属性标签是？ (Personal Tags)
+            <label className="block text-cat-dark font-bold flex items-center gap-2 text-xl md:text-2xl">
+              <Heart className="w-6 h-6 md:w-8 md:h-8 text-cat-accent animate-pulse" />
+              2. 您的属性标签是？ (Genres)
             </label>
-            {renderSelectionGroup(TAG_OPTIONS, 'tags')}
+            {renderSelectionGroup(TAG_OPTIONS, 'tags', 'primary')}
           </div>
 
-          {/* Expectations */}
-          <div className="space-y-2">
-            <label className="block text-cat-dark font-bold flex items-center gap-2 text-sm md:text-base">
-              <Sparkles className="w-4 h-4 md:w-5 md:h-5 text-cat-pink" />
-              3. 对游戏的期待喵？ (Expectations)
-            </label>
-            {renderSelectionGroup(EXPECTATION_OPTIONS, 'expectations')}
-          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {/* Expectations */}
+            <div className="space-y-2 opacity-90 hover:opacity-100 transition-opacity">
+              <label className="block text-gray-500 font-medium flex items-center gap-2 text-sm">
+                <Sparkles className="w-4 h-4 text-cat-pink" />
+                3. 对游戏的期待喵？
+              </label>
+              {renderSelectionGroup(EXPECTATION_OPTIONS, 'expectations', 'secondary')}
+            </div>
 
-          {/* Current Demand */}
-          <div className="space-y-2">
-            <label className="block text-cat-dark font-bold flex items-center gap-2 text-sm md:text-base">
-              <Search className="w-4 h-4 md:w-5 md:h-5 text-cat-pink" />
-              4. 当前有什么特别需求吗？ (Current Demand)
-            </label>
-            {renderSelectionGroup(DEMAND_OPTIONS, 'demand')}
+            {/* Current Demand */}
+            <div className="space-y-2 opacity-90 hover:opacity-100 transition-opacity">
+              <label className="block text-gray-500 font-medium flex items-center gap-2 text-sm">
+                <Search className="w-4 h-4 text-cat-pink" />
+                4. 特别需求
+              </label>
+              {renderSelectionGroup(DEMAND_OPTIONS, 'demand', 'secondary')}
+            </div>
           </div>
 
           <button
