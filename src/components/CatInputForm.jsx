@@ -119,7 +119,7 @@ export default function CatInputForm({ onSearch }) {
         <div className="flex flex-col md:flex-row items-center justify-center mb-6 md:mb-8 gap-4 md:gap-0">
           <InteractiveCatMaid />
           <h2 className="text-xl md:text-3xl font-bold text-cat-accent text-center md:text-left">
-            主人，想玩什么游戏喵？
+            探险家，今天想玩什么游戏喵？
           </h2>
         </div>
 
@@ -128,7 +128,7 @@ export default function CatInputForm({ onSearch }) {
           <div className="space-y-2">
             <label className="block text-cat-dark font-bold flex items-center gap-2 text-sm md:text-base">
               <Gamepad2 className="w-4 h-4 md:w-5 md:h-5 text-cat-pink" />
-              1. 选择您的平台喵 (Platform)
+              1. 选择游戏平台 (Platform)
             </label>
             <div className="grid grid-cols-3 gap-2 md:flex md:gap-4 justify-center">
               {PLATFORMS.map((p) => (
@@ -152,7 +152,7 @@ export default function CatInputForm({ onSearch }) {
           <div className="space-y-2">
             <label className="block text-cat-dark font-bold flex items-center gap-2 text-xl md:text-2xl">
               <Heart className="w-6 h-6 md:w-8 md:h-8 text-cat-accent animate-pulse" />
-              2. 您的属性标签是？ (Genres)
+              2. 想玩的游戏类型 (Genres)
             </label>
             {renderSelectionGroup(TAG_OPTIONS, 'tags', 'primary')}
           </div>
@@ -162,7 +162,7 @@ export default function CatInputForm({ onSearch }) {
             <div className="space-y-2 opacity-90 hover:opacity-100 transition-opacity">
               <label className="block text-gray-500 font-medium flex items-center gap-2 text-sm">
                 <Sparkles className="w-4 h-4 text-cat-pink" />
-                3. 对游戏的期待喵？
+                3. 游戏体验偏好
               </label>
               {renderSelectionGroup(EXPECTATION_OPTIONS, 'expectations', 'secondary')}
             </div>
@@ -182,7 +182,7 @@ export default function CatInputForm({ onSearch }) {
             className="w-full bg-cat-accent hover:bg-red-400 text-white font-bold py-3 md:py-4 rounded-xl shadow-lg transform active:scale-95 transition-all flex items-center justify-center gap-2 text-base md:text-lg"
           >
             <Cat className="w-5 h-5 md:w-6 md:h-6" />
-            开始为您寻找游戏喵！
+            开始寻找游戏！
           </button>
         </form>
       </div>

@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import { MessageCircle, Heart } from 'lucide-react';
+import { MessageCircle, Heart, Cat } from 'lucide-react';
 
 const INTERACTIONS = [
   { action: 'wiggle', text: '喵呜？(Nya?)' },
-  { action: 'pop', text: '主人好！(Master!)' },
+  { action: 'pop', text: '你好呀！(Hello!)' },
   { action: 'tilt', text: '想玩游戏吗？' },
   { action: 'bounce', text: '摸摸头～ (Pat!)' },
   { action: 'spin', text: '转圈圈～ (Spin!)' },
-  { action: 'zoom', text: '靠近一点喵～' },
-  { action: 'wiggle', text: '蹭蹭～ (Rub rub)' },
+  { action: 'zoom', text: '凑近看看喵～' },
+  { action: 'wiggle', text: '开心～ (Happy!)' },
   { action: 'pop', text: '要吃小鱼干吗？' },
   { action: 'tilt', text: '一直陪着你喵～' },
   { action: 'bounce', text: '好开心喵！' },
@@ -19,8 +19,6 @@ export default function InteractiveCatMaid() {
   const [isHovered, setIsHovered] = useState(false);
   const [hearts, setHearts] = useState([]);
   const [clickCount, setClickCount] = useState(0);
-
-  const avatarUrl = "/cat-maid.jpg";
 
   const handleMouseEnter = () => {
     setIsHovered(true);
@@ -103,12 +101,8 @@ export default function InteractiveCatMaid() {
       </div>
 
       {/* 头像容器 */}
-      <div className={`w-16 h-16 md:w-24 md:h-24 rounded-full border-2 md:border-4 border-cat-pink bg-cat-white overflow-hidden shadow-md transition-all duration-300 ${getAnimationClass()}`}>
-        <img 
-          src={avatarUrl} 
-          alt="Cat Maid" 
-          className="w-full h-full object-cover"
-        />
+      <div className={`w-16 h-16 md:w-24 md:h-24 rounded-full border-2 md:border-4 border-cat-pink bg-cat-white overflow-hidden shadow-md transition-all duration-300 flex items-center justify-center bg-pink-50 ${getAnimationClass()}`}>
+        <Cat className="w-10 h-10 md:w-16 md:h-16 text-cat-pink" />
       </div>
       
       {/* 装饰性光晕 */}

@@ -158,7 +158,7 @@ function App() {
             Meaow Game Recommender
           </h1>
           <div className="text-xs md:text-sm text-gray-500 hidden sm:block font-medium">
-            🐾 为主人服务的专属猫娘管家 🐾
+            🐾 为您服务的专属游戏向导 🐾
           </div>
         </div>
       </header>
@@ -174,7 +174,7 @@ function App() {
           <section className="space-y-4 md:space-y-6 animate-fade-in">
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 bg-white p-4 rounded-2xl shadow-sm border border-cat-pink/20">
               <h2 className="text-lg md:text-xl font-bold text-cat-dark">
-                为您找到 {sortedGames.length} 款游戏喵！
+                为您找到 {sortedGames.length} 款游戏！
               </h2>
               
               <div className="flex flex-wrap gap-2">

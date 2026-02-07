@@ -6,7 +6,7 @@ const MOODS = {
     Icon: Cat,
     color: 'bg-cat-pink',
     borderColor: 'border-cat-pink',
-    message: '喵～有什么吩咐吗？'
+    message: '你好，我来帮忙啦！'
   },
   horror: {
     Icon: Ghost,
