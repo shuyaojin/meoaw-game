@@ -1,36 +1,41 @@
 import React, { useState } from 'react';
 import { PLATFORMS } from '../data/mockGames';
-import { Search, Heart, Sparkles, Gamepad2, Cat, Check } from 'lucide-react';
+import { 
+  Search, Heart, Sparkles, Gamepad2, Cat, Check,
+  Zap, Compass, Crown, Brain, Hammer, Trophy, Flag, Coffee, Ghost,
+  BookOpen, Globe, Users, Eye, Skull, Cloud, Lightbulb,
+  Tag, Gift, ThumbsUp, TrendingUp, Feather
+} from 'lucide-react';
 import InteractiveCatMaid from './InteractiveCatMaid';
 
 const TAG_OPTIONS = [
-  { id: 'Action', label: '动作' },
-  { id: 'Adventure', label: '冒险' },
-  { id: 'RPG', label: '角色扮演' },
-  { id: 'Strategy', label: '策略' },
-  { id: 'Simulation', label: '模拟' },
-  { id: 'Sports', label: '体育' },
-  { id: 'Racing', label: '竞速' },
-  { id: 'Casual', label: '休闲' },
-  { id: 'Horror', label: '恐怖' }
+  { id: 'Action', label: '动作', icon: Zap },
+  { id: 'Adventure', label: '冒险', icon: Compass },
+  { id: 'RPG', label: '角色扮演', icon: Crown },
+  { id: 'Strategy', label: '策略', icon: Brain },
+  { id: 'Simulation', label: '模拟', icon: Hammer },
+  { id: 'Sports', label: '体育', icon: Trophy },
+  { id: 'Racing', label: '竞速', icon: Flag },
+  { id: 'Casual', label: '休闲', icon: Coffee },
+  { id: 'Horror', label: '恐怖', icon: Ghost }
 ];
 
 const EXPECTATION_OPTIONS = [
-  { id: 'Story', label: '剧情丰富' },
-  { id: 'Open World', label: '开放世界' },
-  { id: 'Multiplayer', label: '多人联机' },
-  { id: 'Graphics', label: '画面精美' },
-  { id: 'Hardcore', label: '高难度' },
-  { id: 'Relaxing', label: '轻松解压' },
-  { id: 'Indie', label: '独立精品' }
+  { id: 'Story', label: '剧情丰富', icon: BookOpen },
+  { id: 'Open World', label: '开放世界', icon: Globe },
+  { id: 'Multiplayer', label: '多人联机', icon: Users },
+  { id: 'Graphics', label: '画面精美', icon: Eye },
+  { id: 'Hardcore', label: '高难度', icon: Skull },
+  { id: 'Relaxing', label: '轻松解压', icon: Cloud },
+  { id: 'Indie', label: '独立精品', icon: Lightbulb }
 ];
 
 const DEMAND_OPTIONS = [
-  { id: 'Sale', label: '正在打折' },
-  { id: 'Free', label: '免费游玩' },
-  { id: 'Positive', label: '好评如潮' },
-  { id: 'Trending', label: '近期热门' },
-  { id: 'Low Spec', label: '低配畅玩' }
+  { id: 'Sale', label: '正在打折', icon: Tag },
+  { id: 'Free', label: '免费游玩', icon: Gift },
+  { id: 'Positive', label: '好评如潮', icon: ThumbsUp },
+  { id: 'Trending', label: '近期热门', icon: TrendingUp },
+  { id: 'Low Spec', label: '低配畅玩', icon: Feather }
 ];
 
 export default function CatInputForm({ onSearch, onChatToggle }) {
@@ -65,18 +70,20 @@ export default function CatInputForm({ onSearch, onChatToggle }) {
     <div className="grid grid-cols-3 md:grid-cols-4 gap-2">
       {options.map((opt) => {
         const isSelected = formData[field].includes(opt.label);
+        const Icon = opt.icon;
         return (
           <button
             key={opt.id}
             type="button"
             onClick={() => toggleSelection(field, opt.label)}
-            className={`py-2 px-1 md:px-3 rounded-lg border transition-all text-xs md:text-sm flex items-center justify-center gap-1
+            className={`py-2 px-1 md:px-3 rounded-lg border transition-all text-xs md:text-sm flex items-center justify-center gap-1.5
               ${isSelected 
                 ? 'bg-cat-pink text-white border-cat-pink shadow-md transform scale-105' 
                 : 'bg-white border-gray-200 text-gray-600 hover:border-cat-pink/50 hover:bg-cat-pink/5'}`}
           >
-            {isSelected && <Check size={12} />}
+            {Icon && <Icon size={14} className={isSelected ? 'text-white' : 'text-cat-pink/70'} />}
             {opt.label}
+            {isSelected && <Check size={12} className="ml-0.5" />}
           </button>
         );
       })}
