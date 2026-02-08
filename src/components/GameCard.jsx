@@ -1,10 +1,85 @@
-import React, { useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { Star, TrendingUp, DollarSign, ImageOff } from 'lucide-react';
+
+const priceCache = new Map();
+
+const buildSteamPrice = (data) => {
+  if (!data) return null;
+  if (data.is_free) {
+    return {
+      status: 'ok',
+      isFree: true,
+      finalFormatted: '免费',
+      initialFormatted: null,
+      discountPercent: 0
+    };
+  }
+  if (!data.price_overview) {
+    return {
+      status: 'ok',
+      isFree: false,
+      finalFormatted: '暂无价格',
+      initialFormatted: null,
+      discountPercent: 0
+    };
+  }
+  return {
+    status: 'ok',
+    isFree: false,
+    finalFormatted: data.price_overview.final_formatted || `¥${(data.price_overview.final / 100).toFixed(2)}`,
+    initialFormatted: data.price_overview.initial_formatted || `¥${(data.price_overview.initial / 100).toFixed(2)}`,
+    discountPercent: data.price_overview.discount_percent || 0
+  };
+};
 
 export default function GameCard({ game }) {
   const finalPrice = game.basePrice * (1 - game.discount);
   const isDiscounted = game.discount > 0;
   const [imgError, setImgError] = useState(false);
+  const [steamPrice, setSteamPrice] = useState(null);
+  const steamUrl = useMemo(() => `https://store.steampowered.com/app/${game.id}/`, [game.id]);
+
+  useEffect(() => {
+    let active = true;
+    const cached = priceCache.get(game.id);
+    if (cached) {
+      setSteamPrice(cached);
+      return () => {
+        active = false;
+      };
+    }
+
+    const endpoint = `https://store.steampowered.com/api/appdetails?appids=${game.id}&cc=cn&l=zh_cn`;
+    fetch(endpoint)
+      .then(res => res.json())
+      .then(payload => {
+        const entry = payload?.[game.id];
+        const price = entry?.success ? buildSteamPrice(entry.data) : null;
+        const next = price || { status: 'error' };
+        priceCache.set(game.id, next);
+        if (active) setSteamPrice(next);
+      })
+      .catch(() => {
+        const next = { status: 'error' };
+        priceCache.set(game.id, next);
+        if (active) setSteamPrice(next);
+      });
+
+    return () => {
+      active = false;
+    };
+  }, [game.id]);
+
+  const localPrice = {
+    status: 'local',
+    isFree: false,
+    finalFormatted: `¥${finalPrice.toFixed(2)}`,
+    initialFormatted: `¥${game.basePrice}`,
+    discountPercent: Math.round(game.discount * 100)
+  };
+  const priceSource = steamPrice?.status === 'ok' ? steamPrice : localPrice;
+  const showDiscount = priceSource.discountPercent > 0 && priceSource.initialFormatted && priceSource.finalFormatted;
+  const showSteamBadge = priceSource.status === 'ok';
 
   return (
     <div className="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 border border-gray-100 group">
@@ -22,9 +97,9 @@ export default function GameCard({ game }) {
             <span className="text-xs mt-2">暂无图片</span>
           </div>
         )}
-        {isDiscounted && (
+        {priceSource.discountPercent > 0 && (
           <div className="absolute top-2 right-2 bg-red-500 text-white font-bold px-2 py-0.5 md:px-3 md:py-1 rounded-full text-xs md:text-sm animate-bounce">
-            -{Math.round(game.discount * 100)}% OFF
+            -{priceSource.discountPercent}% OFF
           </div>
         )}
         <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-3 md:p-4">
@@ -47,13 +122,16 @@ export default function GameCard({ game }) {
             {game.rating}
           </div>
           <div className="text-right">
-            {isDiscounted ? (
+            {showDiscount ? (
               <div className="flex flex-col items-end">
-                <span className="text-[10px] md:text-xs text-gray-400 line-through">¥{game.basePrice}</span>
-                <span className="text-red-500 font-bold text-base md:text-lg">¥{finalPrice.toFixed(2)}</span>
+                <span className="text-[10px] md:text-xs text-gray-400 line-through">{priceSource.initialFormatted}</span>
+                <span className="text-red-500 font-bold text-base md:text-lg">{priceSource.finalFormatted}</span>
               </div>
             ) : (
-              <span className="text-gray-700 font-bold text-base md:text-lg">¥{game.basePrice}</span>
+              <span className="text-gray-700 font-bold text-base md:text-lg">{priceSource.finalFormatted}</span>
+            )}
+            {showSteamBadge && (
+              <div className="text-[10px] md:text-xs text-cat-accent font-medium mt-0.5">Steam 实时</div>
             )}
           </div>
         </div>
@@ -71,9 +149,14 @@ export default function GameCard({ game }) {
             <TrendingUp className="w-3 h-3" />
             DAU: {(game.dau / 1000).toFixed(1)}k
           </span>
-          <span className="text-cat-accent font-medium cursor-pointer hover:underline flex items-center gap-1">
+          <a
+            href={steamUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="text-cat-accent font-medium hover:underline flex items-center gap-1"
+          >
             查看详情 喵 <span className="text-base md:text-lg">🐾</span>
-          </span>
+          </a>
         </div>
       </div>
     </div>
