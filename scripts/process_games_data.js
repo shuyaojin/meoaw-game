@@ -17,6 +17,48 @@ const DATA_DIR = path.join(__dirname, '../src/data');
 const INPUT_FILE = path.join(DATA_DIR, 'steam_games_full.jsonl');
 const OUTPUT_FILE = path.join(DATA_DIR, 'games.json');
 
+const MAX_VALID_PRICE = 10000;
+
+const normalizePrice = (price) => {
+  if (!Number.isFinite(price)) return null;
+  if (price < 0) return null;
+  if (price > MAX_VALID_PRICE) {
+    if (price % 1000 === 0) return price / 1000;
+    return null;
+  }
+  return Number(price.toFixed(2));
+};
+
+const normalizeDiscount = (discount) => {
+  if (!Number.isFinite(discount)) return 0;
+  if (discount < 0 || discount > 1) return 0;
+  return Number(discount.toFixed(2));
+};
+
+const normalizeGame = (game) => {
+  if (!game || !Number.isFinite(game.id)) return null;
+  return {
+    ...game,
+    title: game.title || '',
+    platforms: Array.isArray(game.platforms) && game.platforms.length > 0 ? game.platforms : ['PC'],
+    basePrice: normalizePrice(game.basePrice),
+    discount: normalizeDiscount(game.discount),
+    rating: Number.isFinite(game.rating) ? game.rating : 0,
+    dau: Number.isFinite(game.dau) ? game.dau : 0,
+    tags: Array.isArray(game.tags) ? game.tags : [],
+    cover: game.cover || ''
+  };
+};
+
+const gameQualityScore = (game) => {
+  let score = 0;
+  if (game.cover) score += 1;
+  if (game.basePrice !== null) score += 2;
+  if (game.tags.length > 0) score += 1;
+  if (game.rating > 0) score += 1;
+  return score;
+};
+
 function main() {
   if (!fs.existsSync(INPUT_FILE)) {
     console.error(`Input file not found: ${INPUT_FILE}`);
@@ -32,9 +74,12 @@ function main() {
 
   lines.forEach((line, index) => {
     try {
-      const game = JSON.parse(line);
-      // Deduplicate by ID (keep latest)
-      gamesMap.set(game.id, game);
+      const game = normalizeGame(JSON.parse(line));
+      if (!game) return;
+      const existing = gamesMap.get(game.id);
+      if (!existing || gameQualityScore(game) >= gameQualityScore(existing)) {
+        gamesMap.set(game.id, game);
+      }
     } catch (e) {
       console.warn(`Skipping invalid JSON on line ${index + 1}`);
     }
@@ -43,8 +88,7 @@ function main() {
   const games = Array.from(gamesMap.values());
   console.log(`Total unique games processed: ${games.length}`);
 
-  // Sort by name for now (or maybe ID)
-  games.sort((a, b) => a.title.localeCompare(b.title));
+  games.sort((a, b) => b.rating - a.rating);
 
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(games, null, 2));
   console.log(`Successfully wrote ${games.length} games to ${OUTPUT_FILE}`);

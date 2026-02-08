@@ -6,6 +6,30 @@ import DesktopPet from './components/DesktopPet';
 import { GAMES } from './data/mockGames';
 import { ArrowUpDown, Flame, Star, DollarSign, Cat } from 'lucide-react';
 
+const EXPECTATION_KEYWORDS = {
+  Story: ['story rich', 'story', '剧情', 'narrative'],
+  'Open World': ['open world', '开放世界'],
+  Multiplayer: ['multi-player', 'multiplayer', 'co-op', 'coop', 'online pvp', 'pvp', '多人', '联机'],
+  Graphics: ['beautiful', 'visual', '画面', '高清'],
+  Hardcore: ['hardcore', 'difficult', 'souls', '高难度', '硬核'],
+  Relaxing: ['casual', 'relax', 'relaxing', '轻松', '解压'],
+  Indie: ['indie', '独立']
+};
+
+const DEMAND_FILTERS = {
+  Sale: (game) => game.discount > 0,
+  Free: (game) => game.basePrice === 0,
+  Positive: (game) => game.rating >= 8.5,
+  Trending: (game) => game.dau >= 5000 || game.rating >= 8.5
+};
+
+const getGameText = (game) => (game.tags.join(' ') + ' ' + game.title).toLowerCase();
+
+const getEffectivePrice = (game) => {
+  if (!Number.isFinite(game.basePrice)) return null;
+  return game.basePrice * (1 - game.discount);
+};
+
 function BackgroundDecorations() {
   return (
     <div className="fixed inset-0 pointer-events-none overflow-hidden z-0">
@@ -35,7 +59,7 @@ function App() {
     setHasSearched(true);
     
     // Determine Mood based on search terms
-    const searchStr = (formData.tags + ' ' + formData.expectations).toLowerCase();
+    const searchStr = (formData.tags + ' ' + formData.expectations + ' ' + formData.demand).toLowerCase();
     
     if (['horror', 'scary', 'zombie', '恐怖', '吓人', '鬼'].some(k => searchStr.includes(k))) {
         setPetMood('horror');
@@ -57,6 +81,8 @@ function App() {
     // Split tags into "Hard Filters" (Genres) and "Soft Filters" (Expectations/Demand)
     // Note: formData.tags comes in as a space-separated string from the form submit handler
     const genreTags = formData.tags ? formData.tags.split(' ').filter(t => t) : [];
+    const expectationIds = formData.expectations ? formData.expectations.split(' ').filter(t => t) : [];
+    const demandIds = formData.demand ? formData.demand.split(' ').filter(t => t) : [];
     const otherTags = [formData.expectations, formData.demand].join(' ').toLowerCase().trim();
     
     // Check for discount keywords
@@ -72,10 +98,19 @@ function App() {
       });
     }
 
+    if (demandIds.length > 0) {
+      filtered = filtered.filter(game =>
+        demandIds.every(demand => {
+          const handler = DEMAND_FILTERS[demand];
+          return handler ? handler(game) : true;
+        })
+      );
+    }
+
     // Then apply scoring based on ALL criteria
     filtered = filtered.map(game => {
       let score = 0;
-      const gameText = (game.tags.join(' ') + ' ' + game.title).toLowerCase();
+      const gameText = getGameText(game);
       
       // Score for Genres (give them high weight to sort relevant genres to top)
       genreTags.forEach(tag => {
@@ -90,6 +125,13 @@ function App() {
         });
       }
 
+      if (expectationIds.length > 0) {
+        expectationIds.forEach(expectation => {
+          const keywords = EXPECTATION_KEYWORDS[expectation] || [];
+          if (keywords.some(k => gameText.includes(k))) score += 6;
+        });
+      }
+
       // Boost discounted games if requested
       if (game.discount > 0) {
         score += wantsDiscount ? 20 : 0; 
@@ -100,7 +142,7 @@ function App() {
 
     // Final cleanup: If we have ANY search criteria, filter out completely irrelevant games (score 0)
     // unless we only had hard filters which are already applied.
-    const hasSearchCriteria = genreTags.length > 0 || otherTags.length > 0;
+    const hasSearchCriteria = genreTags.length > 0 || otherTags.length > 0 || expectationIds.length > 0 || demandIds.length > 0;
     
     if (hasSearchCriteria) {
       // If we only have genres, the hard filter above handled it.
@@ -128,16 +170,28 @@ function App() {
     // Then apply specific sort
     switch (sortType) {
       case 'price_asc':
-        sorted.sort((a, b) => (a.basePrice * (1 - a.discount)) - (b.basePrice * (1 - b.discount)));
+        sorted.sort((a, b) => {
+          const priceA = getEffectivePrice(a);
+          const priceB = getEffectivePrice(b);
+          const safeA = Number.isFinite(priceA) ? priceA : Number.POSITIVE_INFINITY;
+          const safeB = Number.isFinite(priceB) ? priceB : Number.POSITIVE_INFINITY;
+          return safeA - safeB;
+        });
         break;
       case 'price_desc':
-        sorted.sort((a, b) => (b.basePrice * (1 - b.discount)) - (a.basePrice * (1 - a.discount)));
+        sorted.sort((a, b) => {
+          const priceA = getEffectivePrice(a);
+          const priceB = getEffectivePrice(b);
+          const safeA = Number.isFinite(priceA) ? priceA : Number.NEGATIVE_INFINITY;
+          const safeB = Number.isFinite(priceB) ? priceB : Number.NEGATIVE_INFINITY;
+          return safeB - safeA;
+        });
         break;
       case 'rating':
         sorted.sort((a, b) => b.rating - a.rating);
         break;
       case 'dau':
-        sorted.sort((a, b) => b.dau - a.dau);
+        sorted.sort((a, b) => (b.dau || 0) - (a.dau || 0));
         break;
       default:
         break;

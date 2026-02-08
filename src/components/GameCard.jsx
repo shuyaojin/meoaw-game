@@ -33,11 +33,12 @@ const buildSteamPrice = (data) => {
 };
 
 export default function GameCard({ game }) {
-  const finalPrice = game.basePrice * (1 - game.discount);
-  const isDiscounted = game.discount > 0;
+  const hasLocalPrice = Number.isFinite(game.basePrice) && game.basePrice >= 0;
+  const finalPrice = hasLocalPrice ? game.basePrice * (1 - game.discount) : null;
   const [imgError, setImgError] = useState(false);
   const [steamPrice, setSteamPrice] = useState(null);
   const steamUrl = useMemo(() => `https://store.steampowered.com/app/${game.id}/`, [game.id]);
+  const dauValue = Number.isFinite(game.dau) ? game.dau : 0;
 
   useEffect(() => {
     let active = true;
@@ -70,13 +71,21 @@ export default function GameCard({ game }) {
     };
   }, [game.id]);
 
-  const localPrice = {
-    status: 'local',
-    isFree: false,
-    finalFormatted: `¥${finalPrice.toFixed(2)}`,
-    initialFormatted: `¥${game.basePrice}`,
-    discountPercent: Math.round(game.discount * 100)
-  };
+  const localPrice = hasLocalPrice
+    ? {
+        status: 'local',
+        isFree: game.basePrice === 0,
+        finalFormatted: game.basePrice === 0 ? '免费' : `¥${finalPrice.toFixed(2)}`,
+        initialFormatted: `¥${game.basePrice}`,
+        discountPercent: Math.round(game.discount * 100)
+      }
+    : {
+        status: 'local',
+        isFree: false,
+        finalFormatted: '暂无价格',
+        initialFormatted: null,
+        discountPercent: 0
+      };
   const priceSource = steamPrice?.status === 'ok' ? steamPrice : localPrice;
   const showDiscount = priceSource.discountPercent > 0 && priceSource.initialFormatted && priceSource.finalFormatted;
   const showSteamBadge = priceSource.status === 'ok';
@@ -147,7 +156,7 @@ export default function GameCard({ game }) {
         <div className="flex items-center justify-between text-[10px] md:text-xs text-gray-400 border-t pt-2">
           <span className="flex items-center gap-1">
             <TrendingUp className="w-3 h-3" />
-            DAU: {(game.dau / 1000).toFixed(1)}k
+            DAU: {(dauValue / 1000).toFixed(1)}k
           </span>
           <a
             href={steamUrl}
