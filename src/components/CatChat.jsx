@@ -31,6 +31,7 @@ export default function CatChat({ isOpen, onToggle, onAiCommand }) {
   const [inputValue, setInputValue] = useState('');
   const [isTyping, setIsTyping] = useState(false);
   const messagesEndRef = useRef(null);
+  const catMaidUrl = `${import.meta.env.BASE_URL}cat-maid.jpg`;
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -115,7 +116,7 @@ export default function CatChat({ isOpen, onToggle, onAiCommand }) {
           <div className="bg-cat-pink/20 p-3 flex items-center justify-between border-b border-cat-pink/10">
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 rounded-full bg-cat-accent overflow-hidden border-2 border-white">
-                <img src="/cat-maid.jpg" alt="Avatar" className="w-full h-full object-cover" />
+                <img src={catMaidUrl} alt="Avatar" className="w-full h-full object-cover" />
               </div>
               <div>
                 <h3 className="text-sm font-bold text-cat-dark">猫娘管家 AI</h3>
