@@ -6,6 +6,17 @@ import DesktopPet from './components/DesktopPet';
 import { GAMES } from './data/mockGames';
 import { ArrowUpDown, Flame, Star, DollarSign, Cat } from 'lucide-react';
 
+const API_BASE = import.meta.env.VITE_STEAM_API_BASE || '';
+
+const buildApiUrl = (path, params) => {
+  const url = new URL(path, API_BASE || window.location.origin);
+  Object.entries(params).forEach(([key, value]) => {
+    if (value === undefined || value === null || value === '') return;
+    url.searchParams.set(key, String(value));
+  });
+  return url.toString();
+};
+
 const EXPECTATION_KEYWORDS = {
   Story: ['story rich', 'story', '剧情', 'narrative'],
   'Open World': ['open world', '开放世界'],
@@ -73,7 +84,41 @@ function App() {
         setPetMood('default');
     }
 
-    // 1. Filter by Platform
+    const queryParams = {
+      platform: formData.platform,
+      tags: formData.tags,
+      expectations: formData.expectations,
+      demand: formData.demand,
+      keyword: '',
+      sort: sortType,
+      page: 1,
+      size: 60
+    };
+
+    const remoteUrl = API_BASE ? buildApiUrl('/games', queryParams) : '';
+    if (remoteUrl) {
+      fetch(remoteUrl)
+        .then(res => res.json())
+        .then(payload => {
+          if (payload?.data?.items) {
+            setSearchResults(payload.data.items.map(item => ({
+              ...item,
+              matchScore: item.matchScore ?? 0
+            })));
+            return;
+          }
+          throw new Error('invalid payload');
+        })
+        .catch(() => {
+          runLocalSearch(formData);
+        });
+      return;
+    }
+
+    runLocalSearch(formData);
+  };
+
+  const runLocalSearch = (formData) => {
     let filtered = GAMES.filter(g => g.platforms.includes(formData.platform));
 
     // 2. Text Analysis & Scoring

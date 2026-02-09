@@ -1,0 +1,9 @@
+{
+  "name": "steam-sync",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@cloudbase/node-sdk": "^2.8.0"
+  }
+}
