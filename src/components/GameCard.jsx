@@ -37,7 +37,10 @@ export default function GameCard({ game }) {
   const finalPrice = hasLocalPrice ? game.basePrice * (1 - game.discount) : null;
   const [imgError, setImgError] = useState(false);
   const [steamPrice, setSteamPrice] = useState(null);
-  const steamUrl = useMemo(() => `https://store.steampowered.com/app/${game.id}/`, [game.id]);
+  const steamUrlCn = useMemo(() => `https://store.steampowered.com/app/${game.id}/?cc=cn`, [game.id]);
+  const steamUrlGlobal = useMemo(() => `https://store.steampowered.com/app/${game.id}/?cc=us`, [game.id]);
+  const steamClientUrl = useMemo(() => `steam://openurl/https://store.steampowered.com/app/${game.id}/`, [game.id]);
+  const steamDbUrl = useMemo(() => `https://steamdb.info/app/${game.id}/`, [game.id]);
   const dauValue = Number.isFinite(game.dau) ? game.dau : 0;
 
   useEffect(() => {
@@ -158,14 +161,38 @@ export default function GameCard({ game }) {
             <TrendingUp className="w-3 h-3" />
             DAU: {(dauValue / 1000).toFixed(1)}k
           </span>
-          <a
-            href={steamUrl}
-            target="_blank"
-            rel="noreferrer"
-            className="text-cat-accent font-medium hover:underline flex items-center gap-1"
-          >
-            查看详情 喵 <span className="text-base md:text-lg">🐾</span>
-          </a>
+          <div className="flex items-center gap-2">
+            <a
+              href={steamUrlCn}
+              target="_blank"
+              rel="noreferrer"
+              className="text-cat-accent font-medium hover:underline flex items-center gap-1"
+            >
+              商店 CN <span className="text-base md:text-lg">🐾</span>
+            </a>
+            <a
+              href={steamUrlGlobal}
+              target="_blank"
+              rel="noreferrer"
+              className="text-cat-accent font-medium hover:underline"
+            >
+              Global
+            </a>
+            <a
+              href={steamClientUrl}
+              className="text-cat-accent font-medium hover:underline"
+            >
+              客户端
+            </a>
+            <a
+              href={steamDbUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="text-cat-accent font-medium hover:underline"
+            >
+              SteamDB
+            </a>
+          </div>
         </div>
       </div>
     </div>
