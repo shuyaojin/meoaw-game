@@ -1,0 +1,38 @@
+{
+  "envId": "your-env-id",
+  "framework": {
+    "name": "meoaw-game",
+    "plugins": {}
+  },
+  "functions": [
+    {
+      "name": "steam-sync",
+      "config": {
+        "timeout": 60,
+        "envVariables": {},
+        "runtime": "Nodejs12.16",
+        "memorySize": 128
+      },
+      "handler": "index.main",
+      "ignore": [
+        "node_modules",
+        "node_modules/**/*"
+      ]
+    },
+    {
+      "name": "steam-api",
+      "config": {
+        "timeout": 10,
+        "envVariables": {},
+        "runtime": "Nodejs12.16",
+        "memorySize": 128
+      },
+      "handler": "index.main",
+      "ignore": [
+        "node_modules",
+        "node_modules/**/*"
+      ]
+    }
+  ],
+  "region": "ap-shanghai"
+}
