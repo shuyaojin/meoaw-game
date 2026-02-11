@@ -23950,7 +23950,7 @@
       "PC"
     ],
     "basePrice": 58,
-    "discount": 0.25,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26882,7 +26882,7 @@
       "PC"
     ],
     "basePrice": 36,
-    "discount": 0,
+    "discount": 0.75,
     "rating": 0,
     "dau": 0,
     "tags": [
