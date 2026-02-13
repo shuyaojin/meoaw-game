@@ -9,9 +9,12 @@
       "name": "steam-sync",
       "config": {
         "timeout": 60,
-        "envVariables": {},
-        "runtime": "Nodejs12.16",
-        "memorySize": 128
+        "envVariables": {
+          "SYNC_BATCH_SIZE": "5",
+          "SYNC_DELAY_MS": "1500"
+        },
+        "runtime": "Nodejs16.13",
+        "memorySize": 256
       },
       "handler": "index.main",
       "ignore": [
@@ -24,8 +27,8 @@
       "config": {
         "timeout": 10,
         "envVariables": {},
-        "runtime": "Nodejs12.16",
-        "memorySize": 128
+        "runtime": "Nodejs16.13",
+        "memorySize": 256
       },
       "handler": "index.main",
       "ignore": [

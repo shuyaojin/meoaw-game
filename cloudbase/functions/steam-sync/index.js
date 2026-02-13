@@ -6,20 +6,41 @@ const db = app.database();
 
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 const httpGet = (url) => new Promise((resolve, reject) => {
-  https.get(url, { headers: { 'User-Agent': 'CloudBase/SteamSync' } }, (res) => {
+  const options = {
+    headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36' },
+    timeout: 10000 // 10秒超时
+  };
+  
+  const req = https.get(url, options, (res) => {
+    if (res.statusCode !== 200) {
+      console.error(`Request failed for ${url}, status: ${res.statusCode}`);
+      return reject(new Error(`Status ${res.statusCode}`));
+    }
     let data = '';
     res.on('data', c => data += c);
     res.on('end', () => {
       try {
         resolve(JSON.parse(data));
       } catch (e) {
+        console.error(`Parse error for ${url}: ${e.message}`);
         reject(e);
       }
     });
-  }).on('error', reject);
+  });
+
+  req.on('timeout', () => {
+    req.destroy();
+    reject(new Error('Request timeout'));
+  });
+
+  req.on('error', (e) => {
+    console.error(`Network error for ${url}: ${e.message}`);
+    reject(e);
+  });
 });
 
-const STEAM_APPLIST_URL = 'https://api.steampowered.com/ISteamApps/GetAppList/v2/';
+const STEAM_API_BASE = process.env.STEAM_API_BASE || 'https://store.steampowered.com/api';
+const STEAM_APPLIST_URL = process.env.STEAM_APPLIST_URL || 'https://api.steampowered.com/ISteamApps/GetAppList/v2/';
 
 function normalize(game) {
   if (!game) return null;
@@ -54,7 +75,7 @@ function normalize(game) {
 
 async function fetchDetails(appid) {
   try {
-    const url = `https://store.steampowered.com/api/appdetails?appids=${appid}&cc=cn&l=schinese`;
+    const url = `${STEAM_API_BASE}/appdetails?appids=${appid}&cc=cn&l=schinese`;
     const data = await httpGet(url);
     const entry = data?.[appid];
     if (entry?.success && entry.data?.type === 'game') {
@@ -79,8 +100,13 @@ export async function main() {
     const batch = apps.slice(i, i + batchSize);
     const details = await Promise.all(batch.map(a => fetchDetails(a.appid)));
     const valid = details.filter(Boolean);
+    console.log(`Syncing batch: ${valid.length} games`);
     for (const g of valid) {
-      await db.collection('steam_games').doc(String(g.id)).set({ data: g });
+      try {
+        await db.collection('steam_games').doc(String(g.id)).set(g);
+      } catch (e) {
+        console.error(`DB Error for game ${g.id}: ${e.message}`);
+      }
     }
     await sleep(delayMs);
   }
