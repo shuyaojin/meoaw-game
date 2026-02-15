@@ -22370,7 +22370,7 @@
       "Mac"
     ],
     "basePrice": 11,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22449,7 +22449,7 @@
       "独立"
     ],
     "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453160/0970ad83a138f75b1e48e41780ff2eb5f1d21379/header.jpg?t=1769872432",
-    "release_date": "2025 年 8 月 19 日"
+    "release_date": "2025 年 8 月 20 日"
   },
   {
     "id": 2453060,
@@ -26561,7 +26561,7 @@
       "PC"
     ],
     "basePrice": 36,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -27777,7 +27777,7 @@
       "PC"
     ],
     "basePrice": 45,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -28554,7 +28554,7 @@
       "Linux"
     ],
     "basePrice": 58,
-    "discount": 0.4,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -28784,7 +28784,7 @@
       "PC"
     ],
     "basePrice": 15,
-    "discount": 0.6,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -29969,7 +29969,7 @@
       "PC"
     ],
     "basePrice": 125,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -29986,7 +29986,7 @@
       "PC"
     ],
     "basePrice": 76,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -30038,7 +30038,7 @@
       "PC"
     ],
     "basePrice": 33,
-    "discount": 0.6,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -30191,5 +30191,94 @@
     ],
     "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2431510/header.jpg?t=1704998370",
     "release_date": "2023 年 12 月 29 日"
+  },
+  {
+    "id": 2431410,
+    "title": "Grab The Goblins!",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 11,
+    "discount": 0,
+    "rating": 0,
+    "dau": 0,
+    "tags": [
+      "休闲",
+      "独立"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2431410/header.jpg?t=1729639401",
+    "release_date": "2023 年 6 月 27 日"
+  },
+  {
+    "id": 2431390,
+    "title": "MagicArchitect",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 0,
+    "discount": 0,
+    "rating": 0,
+    "dau": 0,
+    "tags": [
+      "动作",
+      "免费开玩"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2431390/header.jpg?t=1745531491",
+    "release_date": "2023 年 5 月 31 日"
+  },
+  {
+    "id": 2431370,
+    "title": "Cube Clash: Rumble and Smash",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 0,
+    "discount": 0,
+    "rating": 0,
+    "dau": 0,
+    "tags": [
+      "动作",
+      "休闲",
+      "独立"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2431370/header.jpg?t=1684366675",
+    "release_date": "即将推出"
+  },
+  {
+    "id": 2431360,
+    "title": "末日校园",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 38,
+    "discount": 0,
+    "rating": 0,
+    "dau": 0,
+    "tags": [
+      "冒险",
+      "独立",
+      "角色扮演",
+      "模拟"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2431360/header.jpg?t=1697269346",
+    "release_date": "2023 年 10 月 14 日"
+  },
+  {
+    "id": 2431330,
+    "title": "Galactic Grinder",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 0,
+    "discount": 0,
+    "rating": 0,
+    "dau": 0,
+    "tags": [
+      "动作",
+      "体育",
+      "免费开玩"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2431330/header.jpg?t=1768834521",
+    "release_date": "2023 年 6 月 23 日"
   }
 ]
