@@ -26633,7 +26633,7 @@
     "platforms": [
       "PC"
     ],
-    "basePrice": 26,
+    "basePrice": 18,
     "discount": 0,
     "rating": 0,
     "dau": 0,
@@ -26940,7 +26940,7 @@
       "Linux"
     ],
     "basePrice": 11,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
