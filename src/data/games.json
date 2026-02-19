@@ -21517,7 +21517,7 @@
       "PC"
     ],
     "basePrice": 148,
-    "discount": 0.67,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22072,7 +22072,7 @@
       "PC"
     ],
     "basePrice": 58,
-    "discount": 0,
+    "discount": 0.6,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22315,7 +22315,7 @@
       "PC"
     ],
     "basePrice": 22,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24325,7 +24325,7 @@
       "Linux"
     ],
     "basePrice": 11,
-    "discount": 0,
+    "discount": 0.4,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24646,7 +24646,7 @@
       "策略",
       "抢先体验"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2445160/ecad3f6b9830848466e634f74d1691c6a921231e/header.jpg?t=1770443006",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2445160/ecad3f6b9830848466e634f74d1691c6a921231e/header.jpg?t=1771411271",
     "release_date": "2024 年 2 月 26 日"
   },
   {
@@ -25043,7 +25043,7 @@
       "PC"
     ],
     "basePrice": 76,
-    "discount": 0.7,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26348,7 +26348,7 @@
       "PC"
     ],
     "basePrice": 29,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
