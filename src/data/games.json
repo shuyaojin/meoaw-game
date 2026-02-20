@@ -21138,7 +21138,7 @@
       "PC"
     ],
     "basePrice": 58,
-    "discount": 0.35,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22597,7 +22597,7 @@
       "PC"
     ],
     "basePrice": 54,
-    "discount": 0,
+    "discount": 0.3,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24147,7 +24147,7 @@
       "PC"
     ],
     "basePrice": 26,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -25169,7 +25169,7 @@
       "冒险",
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2443900/407692a5a297684fb476f895a019bd1fdae2ba9c/header.jpg?t=1770344858",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2443900/407692a5a297684fb476f895a019bd1fdae2ba9c/header.jpg?t=1771553586",
     "release_date": "2026 年"
   },
   {
@@ -25697,7 +25697,7 @@
       "PC"
     ],
     "basePrice": 26,
-    "discount": 0,
+    "discount": 0.33,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -27873,7 +27873,7 @@
     "tags": [
       "策略"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2436970/99fccfb228cf1e178d09c0a426ad930d8cfd275a/header.jpg?t=1770980037",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2436970/99fccfb228cf1e178d09c0a426ad930d8cfd275a/header.jpg?t=1771516020",
     "release_date": "2026 年第一季度"
   },
   {
@@ -28093,7 +28093,7 @@
       "PC"
     ],
     "basePrice": 9.8,
-    "discount": 0,
+    "discount": 0.69,
     "rating": 0,
     "dau": 0,
     "tags": [
