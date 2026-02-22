@@ -25246,7 +25246,7 @@
       "模拟",
       "抢先体验"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2443770/9c52a4dd88bf1f2c8b981993a421356a7f658156/header_schinese.jpg?t=1770388602",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2443770/9c52a4dd88bf1f2c8b981993a421356a7f658156/header_schinese.jpg?t=1771714707",
     "release_date": "2023 年 11 月 29 日"
   },
   {
@@ -27273,7 +27273,7 @@
       "PC"
     ],
     "basePrice": 42,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -27873,8 +27873,8 @@
     "tags": [
       "策略"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2436970/99fccfb228cf1e178d09c0a426ad930d8cfd275a/header.jpg?t=1771516020",
-    "release_date": "2026 年第一季度"
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2436970/99fccfb228cf1e178d09c0a426ad930d8cfd275a/header.jpg?t=1771685449",
+    "release_date": "2026 年第二季度"
   },
   {
     "id": 2436790,
@@ -29071,7 +29071,7 @@
       "冒险",
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2434330/85089b065429595ee8b7ae6120932d4920b4c54d/header.jpg?t=1770631170",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2434330/85089b065429595ee8b7ae6120932d4920b4c54d/header.jpg?t=1771682533",
     "release_date": "2026 年"
   },
   {
@@ -29546,7 +29546,7 @@
       "动作",
       "冒险"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2433500/header.jpg?t=1684238741",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2433500/header.jpg?t=1771685693",
     "release_date": "即将宣布"
   },
   {
@@ -29642,7 +29642,7 @@
       "PC"
     ],
     "basePrice": 42,
-    "discount": 0.3,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
