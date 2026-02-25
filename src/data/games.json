@@ -25169,7 +25169,7 @@
       "冒险",
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2443900/407692a5a297684fb476f895a019bd1fdae2ba9c/header.jpg?t=1771871730",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2443900/407692a5a297684fb476f895a019bd1fdae2ba9c/header.jpg?t=1771934620",
     "release_date": "2026 年"
   },
   {
@@ -26883,7 +26883,7 @@
       "PC"
     ],
     "basePrice": 36,
-    "discount": 0.75,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
