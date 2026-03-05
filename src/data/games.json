@@ -22241,7 +22241,7 @@
       "Linux"
     ],
     "basePrice": 36,
-    "discount": 0,
+    "discount": 0.65,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22316,7 +22316,7 @@
       "PC"
     ],
     "basePrice": 22,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22449,7 +22449,7 @@
       "冒险",
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453160/0970ad83a138f75b1e48e41780ff2eb5f1d21379/header.jpg?t=1771874520",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453160/0970ad83a138f75b1e48e41780ff2eb5f1d21379/header.jpg?t=1772652448",
     "release_date": "2025 年 8 月 19 日"
   },
   {
@@ -23171,7 +23171,7 @@
       "Linux"
     ],
     "basePrice": 15,
-    "discount": 0,
+    "discount": 0.3,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24147,7 +24147,7 @@
       "PC"
     ],
     "basePrice": 26,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24325,7 +24325,7 @@
       "Linux"
     ],
     "basePrice": 11,
-    "discount": 0.4,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -25229,7 +25229,7 @@
   },
   {
     "id": 2443770,
-    "title": "Will You Wheel?",
+    "title": "你开车吗？",
     "platforms": [
       "PC",
       "Linux"
@@ -26348,7 +26348,7 @@
       "PC"
     ],
     "basePrice": 29,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26679,7 +26679,7 @@
       "角色扮演",
       "策略"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2440030/13bd23a63f25c6a38b82b7493e06379ae5e0d87b/header.jpg?t=1769637484",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2440030/13bd23a63f25c6a38b82b7493e06379ae5e0d87b/header.jpg?t=1772653732",
     "release_date": "即将推出"
   },
   {
@@ -26695,7 +26695,7 @@
     "tags": [
       "角色扮演"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2440010/14ad6eaa2ca2963a7b72697818a3a19cbf09266b/header.jpg?t=1769641549",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2440010/14ad6eaa2ca2963a7b72697818a3a19cbf09266b/header.jpg?t=1772647960",
     "release_date": "即将推出"
   },
   {
