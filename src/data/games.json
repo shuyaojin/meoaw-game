@@ -21952,7 +21952,7 @@
       "Linux"
     ],
     "basePrice": 26,
-    "discount": 0,
+    "discount": 0.2,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22227,7 +22227,7 @@
       "冒险",
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453640/d671226a38452e8f87dccf0812dd75858973031b/header.jpg?t=1773917926",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453640/d671226a38452e8f87dccf0812dd75858973031b/header.jpg?t=1774377035",
     "release_date": "2026 年第三季度"
   },
   {
@@ -22943,7 +22943,7 @@
       "策略",
       "抢先体验"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2450400/78434a7e4188a4f27fdae263f3b9e88bfd15b0ac/header.jpg?t=1774306890",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2450400/73f3165b7cf244aac7d9b4915aa9820bd458da08/header.jpg?t=1774327170",
     "release_date": "2024 年 5 月 29 日"
   },
   {
@@ -24458,7 +24458,8 @@
     "id": 2445590,
     "title": "A Completely Fictional Story About a City Inside a Whale",
     "platforms": [
-      "PC"
+      "PC",
+      "Mac"
     ],
     "basePrice": 0,
     "discount": 0,
@@ -24468,7 +24469,7 @@
       "冒险",
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2445590/3967da8b40412fbeeffae40b78b32c2db2c1686b/header.jpg?t=1773490117",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2445590/3967da8b40412fbeeffae40b78b32c2db2c1686b/header.jpg?t=1774399080",
     "release_date": "2026 年 3 月 27 日"
   },
   {
@@ -29069,7 +29070,7 @@
       "冒险",
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2434330/85089b065429595ee8b7ae6120932d4920b4c54d/header.jpg?t=1772445188",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2434330/2fcacf44e081e694ee858fb035cdde0dd1f516b9/header.jpg?t=1774354676",
     "release_date": "2026 年"
   },
   {
@@ -29784,16 +29785,17 @@
       "PC",
       "Linux"
     ],
-    "basePrice": 6,
+    "basePrice": 0,
     "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
       "动作",
       "休闲",
-      "独立"
+      "独立",
+      "免费开玩"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2432770/header.jpg?t=1773344346",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2432770/header.jpg?t=1774365416",
     "release_date": "2023 年 7 月 15 日"
   },
   {
@@ -29919,7 +29921,7 @@
       "PC"
     ],
     "basePrice": 6,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -29969,7 +29971,7 @@
       "PC"
     ],
     "basePrice": 125,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -29986,7 +29988,7 @@
       "PC"
     ],
     "basePrice": 76,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -30038,7 +30040,7 @@
       "PC"
     ],
     "basePrice": 33,
-    "discount": 0,
+    "discount": 0.8,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -30093,7 +30095,7 @@
       "PC"
     ],
     "basePrice": 38,
-    "discount": 0,
+    "discount": 0.37,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -30113,14 +30115,14 @@
       "PC"
     ],
     "basePrice": 33,
-    "discount": 0,
+    "discount": 0.4,
     "rating": 0,
     "dau": 0,
     "tags": [
       "模拟",
       "抢先体验"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2431730/5f9423463602159523e0d41d527c716751c4938c/header.jpg?t=1772816990",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2431730/5f9423463602159523e0d41d527c716751c4938c/header.jpg?t=1774294528",
     "release_date": "2023 年 6 月 14 日"
   },
   {
@@ -30199,7 +30201,7 @@
       "PC"
     ],
     "basePrice": 11,
-    "discount": 0,
+    "discount": 0.35,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -30280,5 +30282,40 @@
     ],
     "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2431330/header.jpg?t=1768834521",
     "release_date": "2023 年 6 月 23 日"
+  },
+  {
+    "id": 2431320,
+    "title": "Cat-aclysm",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 0,
+    "discount": 0,
+    "rating": 0,
+    "dau": 0,
+    "tags": [
+      "动作",
+      "冒险",
+      "免费开玩"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2431320/header.jpg?t=1768833879",
+    "release_date": "2023 年 6 月 9 日"
+  },
+  {
+    "id": 2431310,
+    "title": "ANYU",
+    "platforms": [
+      "PC"
+    ],
+    "basePrice": 0,
+    "discount": 0,
+    "rating": 0,
+    "dau": 0,
+    "tags": [
+      "冒险",
+      "免费开玩"
+    ],
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2431310/header.jpg?t=1768833969",
+    "release_date": "2023 年 6 月 16 日"
   }
 ]
