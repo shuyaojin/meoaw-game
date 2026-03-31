@@ -21738,7 +21738,7 @@
       "PC"
     ],
     "basePrice": 18,
-    "discount": 0,
+    "discount": 0.83,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -21772,7 +21772,7 @@
       "PC"
     ],
     "basePrice": 108,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22332,7 +22332,7 @@
       "PC"
     ],
     "basePrice": 15,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22474,7 +22474,7 @@
       "PC"
     ],
     "basePrice": 29,
-    "discount": 0,
+    "discount": 0.6,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22758,7 +22758,7 @@
       "PC"
     ],
     "basePrice": 22,
-    "discount": 0,
+    "discount": 0.7,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22971,7 +22971,7 @@
       "PC"
     ],
     "basePrice": 26,
-    "discount": 0,
+    "discount": 0.6,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24106,7 +24106,7 @@
       "PC"
     ],
     "basePrice": 26,
-    "discount": 0,
+    "discount": 0.6,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24530,7 +24530,7 @@
       "PC"
     ],
     "basePrice": 6,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24727,7 +24727,7 @@
       "PC"
     ],
     "basePrice": 11,
-    "discount": 0,
+    "discount": 0.72,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -25142,7 +25142,7 @@
       "Linux"
     ],
     "basePrice": 6,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26774,7 +26774,7 @@
       "PC"
     ],
     "basePrice": 14,
-    "discount": 0,
+    "discount": 0.7,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -27745,7 +27745,7 @@
       "PC"
     ],
     "basePrice": 47.99,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -29106,7 +29106,7 @@
       "角色扮演",
       "策略"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2434290/745c75e7c3443c0c10e032e77ca3b70f60938de0/header.jpg?t=1774634041",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2434290/745c75e7c3443c0c10e032e77ca3b70f60938de0/header.jpg?t=1774904692",
     "release_date": "2026 年 4 月"
   },
   {
@@ -29651,7 +29651,7 @@
       "模拟",
       "抢先体验"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2433230/6bca068b6062c3f94c193c37a5f6baa7a458ea28/header.jpg?t=1774832319",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2433230/6bca068b6062c3f94c193c37a5f6baa7a458ea28/header.jpg?t=1774897009",
     "release_date": "2024 年 1 月 5 日"
   },
   {
@@ -29804,7 +29804,7 @@
     "platforms": [
       "PC"
     ],
-    "basePrice": 77,
+    "basePrice": 141,
     "discount": 0,
     "rating": 0,
     "dau": 0,
