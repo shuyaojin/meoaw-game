@@ -22225,10 +22225,11 @@
     "dau": 0,
     "tags": [
       "冒险",
-      "独立"
+      "独立",
+      "抢先体验"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453640/d671226a38452e8f87dccf0812dd75858973031b/header.jpg?t=1774377035",
-    "release_date": "2026 年第三季度"
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453640/d671226a38452e8f87dccf0812dd75858973031b/header.jpg?t=1775091480",
+    "release_date": "2026 年第四季度"
   },
   {
     "id": 2453610,
@@ -22464,7 +22465,7 @@
       "冒险",
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453060/34eb7d1855bce2ee52c6b872ab8923c8372240c7/header.jpg?t=1763156843",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453060/34eb7d1855bce2ee52c6b872ab8923c8372240c7/header.jpg?t=1775048761",
     "release_date": "2025 年 1 月 23 日"
   },
   {
@@ -22835,7 +22836,7 @@
       "模拟",
       "体育"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2451010/61b88831b130cc7a4621a3bd774cb9db92681b92/header.jpg?t=1767365514",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2451010/61b88831b130cc7a4621a3bd774cb9db92681b92/header.jpg?t=1775029515",
     "release_date": "2024 年 3 月 25 日"
   },
   {
@@ -26249,7 +26250,7 @@
       "动作",
       "冒险"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2441310/header.jpg?t=1730386012",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2441310/header.jpg?t=1775040736",
     "release_date": "即将推出"
   },
   {
@@ -26473,7 +26474,7 @@
       "Linux"
     ],
     "basePrice": 19.8,
-    "discount": 0,
+    "discount": 0.2,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -29070,7 +29071,7 @@
       "冒险",
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2434330/2fcacf44e081e694ee858fb035cdde0dd1f516b9/header.jpg?t=1774354676",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2434330/2fcacf44e081e694ee858fb035cdde0dd1f516b9/header.jpg?t=1775040142",
     "release_date": "2026 年"
   },
   {
