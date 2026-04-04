@@ -21762,7 +21762,7 @@
       "独立",
       "角色扮演"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2455380/ce6e47af7cfe49e283e4282003cf3d2a75ddc0b8/header.jpg?t=1768308574",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2455380/69cf557af7c46f8be34be09428c323af1de2a121/header.jpg?t=1775231957",
     "release_date": "即将推出"
   },
   {
@@ -22073,7 +22073,7 @@
       "PC"
     ],
     "basePrice": 58,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24146,7 +24146,7 @@
       "PC"
     ],
     "basePrice": 26,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24463,7 +24463,7 @@
       "Mac"
     ],
     "basePrice": 33,
-    "discount": 0.15,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
