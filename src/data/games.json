@@ -21795,7 +21795,7 @@
       "PC"
     ],
     "basePrice": 48,
-    "discount": 0,
+    "discount": 0.75,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22090,7 +22090,7 @@
       "PC"
     ],
     "basePrice": 11,
-    "discount": 0.44,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22825,7 +22825,7 @@
       "PC"
     ],
     "basePrice": 88,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -25462,7 +25462,7 @@
       "Mac"
     ],
     "basePrice": 76,
-    "discount": 0,
+    "discount": 0.6,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -27871,8 +27871,8 @@
     "tags": [
       "策略"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2436970/99fccfb228cf1e178d09c0a426ad930d8cfd275a/header.jpg?t=1775565339",
-    "release_date": "2026 年 4 月"
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2436970/99fccfb228cf1e178d09c0a426ad930d8cfd275a/header.jpg?t=1775734399",
+    "release_date": "2026 年 4 月 27 日"
   },
   {
     "id": 2436790,
@@ -28468,7 +28468,7 @@
       "PC"
     ],
     "basePrice": 18,
-    "discount": 0,
+    "discount": 0.7,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -28989,7 +28989,7 @@
       "Mac"
     ],
     "basePrice": 42,
-    "discount": 0,
+    "discount": 0.6,
     "rating": 0,
     "dau": 0,
     "tags": [
