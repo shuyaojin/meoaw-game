@@ -20987,7 +20987,7 @@
       "PC"
     ],
     "basePrice": 42,
-    "discount": 0,
+    "discount": 0.7,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -21035,7 +21035,7 @@
       "PC"
     ],
     "basePrice": 15,
-    "discount": 0.35,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -21138,7 +21138,7 @@
       "PC"
     ],
     "basePrice": 58,
-    "discount": 0.35,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -21228,7 +21228,7 @@
       "Mac"
     ],
     "basePrice": 22,
-    "discount": 0,
+    "discount": 0.25,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -21261,7 +21261,7 @@
       "Linux"
     ],
     "basePrice": 42,
-    "discount": 0.75,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22022,7 +22022,7 @@
       "PC"
     ],
     "basePrice": 28,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22144,7 +22144,7 @@
       "PC"
     ],
     "basePrice": 15.49,
-    "discount": 0.6,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22182,7 +22182,7 @@
       "PC"
     ],
     "basePrice": 11.59,
-    "discount": 0.55,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22914,7 +22914,7 @@
       "PC"
     ],
     "basePrice": 23,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -23168,7 +23168,7 @@
       "Linux"
     ],
     "basePrice": 15,
-    "discount": 0,
+    "discount": 0.3,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24937,7 +24937,7 @@
       "PC"
     ],
     "basePrice": 15,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -25232,7 +25232,7 @@
       "PC",
       "Linux"
     ],
-    "basePrice": 42,
+    "basePrice": 39,
     "discount": 0,
     "rating": 0,
     "dau": 0,
@@ -25369,7 +25369,7 @@
       "PC"
     ],
     "basePrice": 22,
-    "discount": 0,
+    "discount": 0.4,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -25802,7 +25802,7 @@
       "PC"
     ],
     "basePrice": 48,
-    "discount": 0.55,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -25996,7 +25996,7 @@
       "PC"
     ],
     "basePrice": 10,
-    "discount": 0.6,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26204,7 +26204,7 @@
       "PC"
     ],
     "basePrice": 26,
-    "discount": 0,
+    "discount": 0.65,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26559,7 +26559,7 @@
       "PC"
     ],
     "basePrice": 36,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26614,7 +26614,7 @@
       "PC"
     ],
     "basePrice": 6,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -27290,7 +27290,7 @@
       "PC"
     ],
     "basePrice": 11,
-    "discount": 0.72,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -28451,7 +28451,7 @@
       "PC"
     ],
     "basePrice": 26,
-    "discount": 0,
+    "discount": 0.75,
     "rating": 0,
     "dau": 0,
     "tags": [
