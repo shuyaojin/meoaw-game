@@ -21795,7 +21795,7 @@
       "PC"
     ],
     "basePrice": 48,
-    "discount": 0.75,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22226,7 +22226,7 @@
       "独立",
       "抢先体验"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453640/d671226a38452e8f87dccf0812dd75858973031b/header.jpg?t=1776259868",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453640/d671226a38452e8f87dccf0812dd75858973031b/header.jpg?t=1776377789",
     "release_date": "2026 年第四季度"
   },
   {
@@ -22942,7 +22942,7 @@
       "策略",
       "抢先体验"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2450400/73f3165b7cf244aac7d9b4915aa9820bd458da08/header.jpg?t=1774327170",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2450400/73f3165b7cf244aac7d9b4915aa9820bd458da08/header.jpg?t=1776376005",
     "release_date": "2024 年 5 月 29 日"
   },
   {
@@ -25462,7 +25462,7 @@
       "Mac"
     ],
     "basePrice": 76,
-    "discount": 0.6,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -27271,7 +27271,7 @@
       "PC"
     ],
     "basePrice": 42,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -27871,7 +27871,7 @@
     "tags": [
       "策略"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2436970/99fccfb228cf1e178d09c0a426ad930d8cfd275a/header.jpg?t=1775734399",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2436970/99fccfb228cf1e178d09c0a426ad930d8cfd275a/header.jpg?t=1776343924",
     "release_date": "2026 年 4 月 27 日"
   },
   {
@@ -28468,7 +28468,7 @@
       "PC"
     ],
     "basePrice": 18,
-    "discount": 0.7,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -28989,7 +28989,7 @@
       "Mac"
     ],
     "basePrice": 42,
-    "discount": 0.6,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
