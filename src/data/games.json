@@ -20808,9 +20808,10 @@
     "dau": 0,
     "tags": [
       "动作",
+      "独立",
       "抢先体验"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2462090/f42ab0f6a5e95de1e8bb5b472239a4e531aee0f5/header.jpg?t=1776146570",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2462090/f42ab0f6a5e95de1e8bb5b472239a4e531aee0f5/header.jpg?t=1776557204",
     "release_date": "2024 年 9 月 9 日"
   },
   {
@@ -22595,7 +22596,7 @@
       "PC"
     ],
     "basePrice": 50,
-    "discount": 0.3,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -23446,7 +23447,7 @@
       "Linux"
     ],
     "basePrice": 56,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -27785,7 +27786,7 @@
       "策略",
       "抢先体验"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2437330/header.jpg?t=1775490042",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2437330/header.jpg?t=1776503333",
     "release_date": "2025 年 2 月 10 日"
   },
   {
@@ -30094,7 +30095,7 @@
       "PC"
     ],
     "basePrice": 38,
-    "discount": 0.37,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -30114,7 +30115,7 @@
       "PC"
     ],
     "basePrice": 33,
-    "discount": 0.4,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -30148,7 +30149,7 @@
     "platforms": [
       "PC"
     ],
-    "basePrice": 15,
+    "basePrice": 33,
     "discount": 0,
     "rating": 0,
     "dau": 0,
