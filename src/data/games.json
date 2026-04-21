@@ -20988,7 +20988,7 @@
       "PC"
     ],
     "basePrice": 42,
-    "discount": 0.7,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -21229,7 +21229,7 @@
       "Mac"
     ],
     "basePrice": 22,
-    "discount": 0.25,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -21600,7 +21600,7 @@
       "PC"
     ],
     "basePrice": 48,
-    "discount": 0,
+    "discount": 0.2,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22023,7 +22023,7 @@
       "PC"
     ],
     "basePrice": 28,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -23169,7 +23169,7 @@
       "Linux"
     ],
     "basePrice": 15,
-    "discount": 0.3,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24637,7 +24637,7 @@
       "PC"
     ],
     "basePrice": 22,
-    "discount": 0,
+    "discount": 0.4,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24938,7 +24938,7 @@
       "PC"
     ],
     "basePrice": 15,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -25370,7 +25370,7 @@
       "PC"
     ],
     "basePrice": 22,
-    "discount": 0.4,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -25857,7 +25857,7 @@
       "PC"
     ],
     "basePrice": 21.71,
-    "discount": 0,
+    "discount": 0.69,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26205,7 +26205,7 @@
       "PC"
     ],
     "basePrice": 26,
-    "discount": 0.65,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26560,7 +26560,7 @@
       "PC"
     ],
     "basePrice": 36,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26615,7 +26615,7 @@
       "PC"
     ],
     "basePrice": 6,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26976,7 +26976,7 @@
       "PC"
     ],
     "basePrice": 33,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -28452,7 +28452,7 @@
       "PC"
     ],
     "basePrice": 26,
-    "discount": 0.75,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -30201,7 +30201,7 @@
       "PC"
     ],
     "basePrice": 11,
-    "discount": 0.35,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
