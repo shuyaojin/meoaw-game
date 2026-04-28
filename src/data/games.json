@@ -21269,7 +21269,7 @@
       "冒险",
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2458700/e48bca4794ca919c93905ecdeb4d0b6dfd8c11a9/header.jpg?t=1776252876",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2458700/e48bca4794ca919c93905ecdeb4d0b6dfd8c11a9/header.jpg?t=1777319241",
     "release_date": "2023 年 6 月 23 日"
   },
   {
@@ -21600,7 +21600,7 @@
       "PC"
     ],
     "basePrice": 48,
-    "discount": 0.2,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22227,7 +22227,7 @@
       "独立",
       "抢先体验"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453640/d671226a38452e8f87dccf0812dd75858973031b/header.jpg?t=1776944741",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453640/d671226a38452e8f87dccf0812dd75858973031b/header.jpg?t=1777280683",
     "release_date": "2026 年第四季度"
   },
   {
@@ -22860,7 +22860,7 @@
       "Linux"
     ],
     "basePrice": 12,
-    "discount": 0.25,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24637,7 +24637,7 @@
       "PC"
     ],
     "basePrice": 22,
-    "discount": 0.4,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26847,7 +26847,7 @@
       "Mac"
     ],
     "basePrice": 12,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26976,7 +26976,7 @@
       "PC"
     ],
     "basePrice": 33,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -27866,14 +27866,14 @@
       "PC",
       "Mac"
     ],
-    "basePrice": 0,
-    "discount": 0,
+    "basePrice": 39.99,
+    "discount": 0.2,
     "rating": 0,
     "dau": 0,
     "tags": [
       "策略"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2436970/99fccfb228cf1e178d09c0a426ad930d8cfd275a/header.jpg?t=1776954273",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2436970/8e97fc30044920af2b3bd174a14894d2e62c0cbb/header_alt_assets_0_schinese.jpg?t=1777298190",
     "release_date": "2026 年 4 月 27 日"
   },
   {
@@ -27938,7 +27938,7 @@
       "PC"
     ],
     "basePrice": 6,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
