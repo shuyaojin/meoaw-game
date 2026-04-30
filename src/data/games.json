@@ -22218,8 +22218,8 @@
     "platforms": [
       "PC"
     ],
-    "basePrice": 0,
-    "discount": 0,
+    "basePrice": 48,
+    "discount": 0.1,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22227,8 +22227,8 @@
       "独立",
       "抢先体验"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453640/d671226a38452e8f87dccf0812dd75858973031b/header.jpg?t=1777280683",
-    "release_date": "2026 年第四季度"
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453640/d671226a38452e8f87dccf0812dd75858973031b/header.jpg?t=1777460302",
+    "release_date": "2026 年 4 月 29 日"
   },
   {
     "id": 2453610,
@@ -23210,7 +23210,7 @@
       "独立",
       "角色扮演"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2449530/header_schinese.jpg?t=1772417686",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2449530/header_schinese.jpg?t=1777443087",
     "release_date": "2024 年 12 月 13 日"
   },
   {
@@ -26259,7 +26259,7 @@
       "PC"
     ],
     "basePrice": 11,
-    "discount": 0.72,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -29098,8 +29098,8 @@
     "platforms": [
       "PC"
     ],
-    "basePrice": 0,
-    "discount": 0,
+    "basePrice": 11,
+    "discount": 0.2,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -29107,8 +29107,8 @@
       "角色扮演",
       "策略"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2434290/745c75e7c3443c0c10e032e77ca3b70f60938de0/header.jpg?t=1777427047",
-    "release_date": "2026 年 4 月"
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2434290/745c75e7c3443c0c10e032e77ca3b70f60938de0/header.jpg?t=1777465505",
+    "release_date": "2026 年 4 月 29 日"
   },
   {
     "id": 2434260,
