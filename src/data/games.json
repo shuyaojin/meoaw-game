@@ -20949,7 +20949,7 @@
       "PC"
     ],
     "basePrice": 42,
-    "discount": 0,
+    "discount": 0.85,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -21052,7 +21052,7 @@
       "PC"
     ],
     "basePrice": 6,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -21618,7 +21618,7 @@
       "PC"
     ],
     "basePrice": 15,
-    "discount": 0,
+    "discount": 0.8,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -21745,7 +21745,7 @@
     "tags": [
       "动作"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2455440/header.jpg?t=1767141675",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2455440/header.jpg?t=1777889244",
     "release_date": "2023 年 6 月 16 日"
   },
   {
@@ -22074,7 +22074,7 @@
       "PC"
     ],
     "basePrice": 58,
-    "discount": 0,
+    "discount": 0.55,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22877,7 +22877,7 @@
       "PC"
     ],
     "basePrice": 42,
-    "discount": 0,
+    "discount": 0.3,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -23253,7 +23253,7 @@
       "PC"
     ],
     "basePrice": 47,
-    "discount": 0,
+    "discount": 0.6,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24056,7 +24056,7 @@
       "PC"
     ],
     "basePrice": 22,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -25857,7 +25857,7 @@
       "PC"
     ],
     "basePrice": 21.71,
-    "discount": 0.69,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26131,7 +26131,7 @@
       "PC"
     ],
     "basePrice": 58,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -27777,7 +27777,7 @@
       "PC"
     ],
     "basePrice": 45,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -27938,7 +27938,7 @@
       "PC"
     ],
     "basePrice": 6,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -29243,7 +29243,7 @@
       "PC"
     ],
     "basePrice": 78,
-    "discount": 0,
+    "discount": 0.65,
     "rating": 0,
     "dau": 0,
     "tags": [
