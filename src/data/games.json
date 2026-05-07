@@ -22219,7 +22219,7 @@
       "PC"
     ],
     "basePrice": 48,
-    "discount": 0.1,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22227,7 +22227,7 @@
       "独立",
       "抢先体验"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453640/d671226a38452e8f87dccf0812dd75858973031b/header.jpg?t=1777746741",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453640/d671226a38452e8f87dccf0812dd75858973031b/header.jpg?t=1778106992",
     "release_date": "2026 年 4 月 29 日"
   },
   {
@@ -22835,7 +22835,7 @@
       "模拟",
       "体育"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2451010/61b88831b130cc7a4621a3bd774cb9db92681b92/header.jpg?t=1775548759",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2451010/6e1e2954ab0412c5d16ab513a35179a65ac9c657/header.jpg?t=1778100750",
     "release_date": "2024 年 3 月 25 日"
   },
   {
@@ -26855,7 +26855,7 @@
       "独立",
       "角色扮演"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2439760/header.jpg?t=1776953781",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2439760/header.jpg?t=1778061233",
     "release_date": "2023 年 8 月 18 日"
   },
   {
