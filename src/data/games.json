@@ -22216,7 +22216,8 @@
     "id": 2453640,
     "title": "No Stone Unturned",
     "platforms": [
-      "PC"
+      "PC",
+      "Mac"
     ],
     "basePrice": 48,
     "discount": 0,
@@ -22227,7 +22228,7 @@
       "独立",
       "抢先体验"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453640/d671226a38452e8f87dccf0812dd75858973031b/header.jpg?t=1778106992",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453640/d671226a38452e8f87dccf0812dd75858973031b/header.jpg?t=1778253595",
     "release_date": "2026 年 4 月 29 日"
   },
   {
@@ -24232,7 +24233,7 @@
       "PC"
     ],
     "basePrice": 6,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -27376,7 +27377,7 @@
       "独立",
       "模拟"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2438180/460727ca564c53e2982c03604b4a73ffe3d31074/header.jpg?t=1773836968",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2438180/460727ca564c53e2982c03604b4a73ffe3d31074/header.jpg?t=1778293603",
     "release_date": "即将推出"
   },
   {
