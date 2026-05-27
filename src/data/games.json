@@ -22494,7 +22494,7 @@
       "PC"
     ],
     "basePrice": 6,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -29514,7 +29514,7 @@
       "独立",
       "模拟"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2433560/1840c9280281269d2b29f545dd1f4b3872ee21e8/header.jpg?t=1776959335",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2433560/1840c9280281269d2b29f545dd1f4b3872ee21e8/header.jpg?t=1779796819",
     "release_date": "即将宣布"
   },
   {
@@ -29973,7 +29973,7 @@
       "PC"
     ],
     "basePrice": 125,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -29990,7 +29990,7 @@
       "PC"
     ],
     "basePrice": 76,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
