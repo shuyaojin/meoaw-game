@@ -22315,7 +22315,7 @@
       "PC"
     ],
     "basePrice": 22,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -23211,7 +23211,7 @@
       "独立",
       "角色扮演"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2449530/header_schinese.jpg?t=1778810116",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2449530/header_schinese.jpg?t=1780282294",
     "release_date": "2024 年 12 月 13 日"
   },
   {
@@ -23812,7 +23812,7 @@
       "动作",
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2447530/header.jpg?t=1780196195",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2447530/header.jpg?t=1780277929",
     "release_date": "2023 年 6 月 15 日"
   },
   {
@@ -24146,7 +24146,7 @@
       "PC"
     ],
     "basePrice": 26,
-    "discount": 0.55,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24324,7 +24324,7 @@
       "Linux"
     ],
     "basePrice": 11,
-    "discount": 0.4,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
