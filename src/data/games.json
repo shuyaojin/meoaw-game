@@ -21517,14 +21517,14 @@
     "platforms": [
       "PC"
     ],
-    "basePrice": 108,
+    "basePrice": 0,
     "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
       "冒险"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2456960/header.jpg?t=1780407593",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2456960/header.jpg?t=1780585255",
     "release_date": "2023 年 10 月 19 日"
   },
   {
@@ -26883,7 +26883,7 @@
       "PC"
     ],
     "basePrice": 36,
-    "discount": 0,
+    "discount": 0.7,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -28094,7 +28094,7 @@
       "PC"
     ],
     "basePrice": 9.8,
-    "discount": 0,
+    "discount": 0.69,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -29653,7 +29653,7 @@
       "模拟",
       "抢先体验"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2433230/6bca068b6062c3f94c193c37a5f6baa7a458ea28/header.jpg?t=1777774579",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2433230/e9f23ffe3af25ef9b1dfb1859c7a6dc9688ef8c4/header.jpg?t=1780586762",
     "release_date": "2024 年 1 月 5 日"
   },
   {
