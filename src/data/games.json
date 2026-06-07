@@ -21218,8 +21218,8 @@
       "冒险",
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2458980/06d5c493e7d088a11372622a0689869126966c19/header.jpg?t=1779193227",
-    "release_date": "2026 年第二季度"
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2458980/06d5c493e7d088a11372622a0689869126966c19/header.jpg?t=1780781597",
+    "release_date": "2026 年 6 月 23 日"
   },
   {
     "id": 2458940,
@@ -25304,7 +25304,7 @@
       "PC"
     ],
     "basePrice": 6,
-    "discount": 0.4,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -29155,7 +29155,7 @@
       "PC"
     ],
     "basePrice": 58,
-    "discount": 0,
+    "discount": 0.25,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -29653,7 +29653,7 @@
       "模拟",
       "抢先体验"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2433230/e9f23ffe3af25ef9b1dfb1859c7a6dc9688ef8c4/header.jpg?t=1780586762",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2433230/73a5bcce516ca4372612639dc26f33893bec5a03/header.jpg?t=1780780862",
     "release_date": "2024 年 1 月 5 日"
   },
   {
