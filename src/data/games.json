@@ -20803,7 +20803,7 @@
       "PC"
     ],
     "basePrice": 22,
-    "discount": 0.25,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -20988,7 +20988,7 @@
       "PC"
     ],
     "basePrice": 42,
-    "discount": 0.7,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -21608,7 +21608,7 @@
       "独立",
       "角色扮演"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2456160/header.jpg?t=1768300509",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2456160/header.jpg?t=1781581348",
     "release_date": "2024 年 5 月 12 日"
   },
   {
@@ -22240,7 +22240,7 @@
       "Linux"
     ],
     "basePrice": 36,
-    "discount": 0.7,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22465,7 +22465,7 @@
       "冒险",
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453060/33ceaef87eb0cd9efd01beb847b8e3081ebc9591/header_alt_assets_0.jpg?t=1780336277",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453060/33ceaef87eb0cd9efd01beb847b8e3081ebc9591/header_alt_assets_0.jpg?t=1781525057",
     "release_date": "2025 年 1 月 23 日"
   },
   {
@@ -22475,7 +22475,7 @@
       "PC"
     ],
     "basePrice": 29,
-    "discount": 0.7,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22833,10 +22833,9 @@
     "tags": [
       "冒险",
       "独立",
-      "模拟",
-      "体育"
+      "模拟"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2451010/6e1e2954ab0412c5d16ab513a35179a65ac9c657/header.jpg?t=1778100750",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2451010/6e1e2954ab0412c5d16ab513a35179a65ac9c657/header.jpg?t=1781531249",
     "release_date": "2024 年 3 月 25 日"
   },
   {
@@ -23406,7 +23405,7 @@
       "PC"
     ],
     "basePrice": 22,
-    "discount": 0.55,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24914,7 +24913,7 @@
       "冒险",
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2444660/header.jpg?t=1779452858",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2444660/header.jpg?t=1781512287",
     "release_date": "2023 年 6 月 15 日"
   },
   {
@@ -24941,7 +24940,7 @@
       "PC"
     ],
     "basePrice": 15,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -25373,7 +25372,7 @@
       "PC"
     ],
     "basePrice": 22,
-    "discount": 0.4,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26262,7 +26261,7 @@
       "PC"
     ],
     "basePrice": 11,
-    "discount": 0,
+    "discount": 0.72,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26350,7 +26349,7 @@
       "PC"
     ],
     "basePrice": 29,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26850,7 +26849,7 @@
       "Mac"
     ],
     "basePrice": 12,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -27941,7 +27940,7 @@
       "PC"
     ],
     "basePrice": 6,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -28456,7 +28455,7 @@
       "PC"
     ],
     "basePrice": 26,
-    "discount": 0.75,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -28628,7 +28627,7 @@
       "Mac"
     ],
     "basePrice": 33,
-    "discount": 0,
+    "discount": 0.6,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -29644,7 +29643,7 @@
     "platforms": [
       "PC"
     ],
-    "basePrice": 42,
+    "basePrice": 22,
     "discount": 0,
     "rating": 0,
     "dau": 0,
