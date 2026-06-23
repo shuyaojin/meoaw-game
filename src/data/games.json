@@ -21297,7 +21297,7 @@
       "PC"
     ],
     "basePrice": 11,
-    "discount": 0.72,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26851,7 +26851,7 @@
       "Mac"
     ],
     "basePrice": 12,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -28629,7 +28629,7 @@
       "Mac"
     ],
     "basePrice": 33,
-    "discount": 0.6,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
