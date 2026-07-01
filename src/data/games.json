@@ -22296,7 +22296,7 @@
       "PC"
     ],
     "basePrice": 22,
-    "discount": 0.8,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26942,7 +26942,7 @@
       "Linux"
     ],
     "basePrice": 11,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
