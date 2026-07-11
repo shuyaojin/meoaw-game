@@ -21599,7 +21599,7 @@
       "PC"
     ],
     "basePrice": 48,
-    "discount": 0,
+    "discount": 0.3,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22493,7 +22493,7 @@
       "PC"
     ],
     "basePrice": 6,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -25852,7 +25852,7 @@
       "独立"
     ],
     "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2442470/header.jpg?t=1715673032",
-    "release_date": "即将推���"
+    "release_date": "即将推出"
   },
   {
     "id": 2442440,
@@ -26817,7 +26817,7 @@
       "PC"
     ],
     "basePrice": 26,
-    "discount": 0,
+    "discount": 0.25,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -29810,7 +29810,7 @@
       "PC"
     ],
     "basePrice": 141,
-    "discount": 0.95,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -29926,7 +29926,7 @@
       "PC"
     ],
     "basePrice": 6,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -29976,7 +29976,7 @@
       "PC"
     ],
     "basePrice": 125,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -29993,7 +29993,7 @@
       "PC"
     ],
     "basePrice": 76,
-    "discount": 0.6,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -30045,7 +30045,7 @@
       "PC"
     ],
     "basePrice": 33,
-    "discount": 0.4,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -30082,7 +30082,7 @@
       "PC"
     ],
     "basePrice": 18,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -30120,7 +30120,7 @@
       "PC"
     ],
     "basePrice": 33,
-    "discount": 0.4,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
