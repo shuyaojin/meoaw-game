@@ -22332,7 +22332,7 @@
       "PC"
     ],
     "basePrice": 11,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -23523,7 +23523,7 @@
       "Linux"
     ],
     "basePrice": 22,
-    "discount": 0,
+    "discount": 0.8,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -27877,7 +27877,7 @@
     "tags": [
       "策略"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2436970/8e97fc30044920af2b3bd174a14894d2e62c0cbb/header_alt_assets_0_schinese.jpg?t=1781368355",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2436970/8e97fc30044920af2b3bd174a14894d2e62c0cbb/header_alt_assets_0_schinese.jpg?t=1784025724",
     "release_date": "2026 年 4 月 27 日"
   },
   {
