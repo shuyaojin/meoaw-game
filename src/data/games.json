@@ -21052,7 +21052,7 @@
       "PC"
     ],
     "basePrice": 6,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -21085,7 +21085,7 @@
       "PC"
     ],
     "basePrice": 6,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -21139,7 +21139,7 @@
       "PC"
     ],
     "basePrice": 58,
-    "discount": 0,
+    "discount": 0.35,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -21228,7 +21228,7 @@
       "Mac"
     ],
     "basePrice": 22,
-    "discount": 0,
+    "discount": 0.25,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -21772,7 +21772,7 @@
       "PC"
     ],
     "basePrice": 108,
-    "discount": 0.8,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22004,7 +22004,7 @@
       "Linux"
     ],
     "basePrice": 48,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22022,7 +22022,7 @@
       "PC"
     ],
     "basePrice": 28,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22332,7 +22332,7 @@
       "PC"
     ],
     "basePrice": 11,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22474,7 +22474,7 @@
       "PC"
     ],
     "basePrice": 29,
-    "discount": 0,
+    "discount": 0.6,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22914,7 +22914,7 @@
       "PC"
     ],
     "basePrice": 23,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -23168,7 +23168,7 @@
       "Linux"
     ],
     "basePrice": 15,
-    "discount": 0.3,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -23363,7 +23363,7 @@
       "独立"
     ],
     "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2449160/header_schinese.jpg?t=1750948909",
-    "release_date": "2025 年 2 月 5 日"
+    "release_date": "2025 年 2 ��� 5 日"
   },
   {
     "id": 2449080,
@@ -23758,7 +23758,7 @@
       "独立",
       "角色扮演"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2447680/ccc372402da02d4580f1db075f129076dae0f43a/header_schinese.jpg?t=1767326760",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2447680/ccc372402da02d4580f1db075f129076dae0f43a/header_schinese.jpg?t=1784540589",
     "release_date": "2025 年 8 月 21 日"
   },
   {
@@ -24108,7 +24108,7 @@
       "PC"
     ],
     "basePrice": 26,
-    "discount": 0.6,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24532,7 +24532,7 @@
       "PC"
     ],
     "basePrice": 6,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24639,7 +24639,7 @@
       "PC"
     ],
     "basePrice": 22,
-    "discount": 0.4,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24941,7 +24941,7 @@
       "PC"
     ],
     "basePrice": 15,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -25374,7 +25374,7 @@
       "PC"
     ],
     "basePrice": 22,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26104,7 +26104,7 @@
       "PC"
     ],
     "basePrice": 6,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26209,7 +26209,7 @@
       "PC"
     ],
     "basePrice": 26,
-    "discount": 0,
+    "discount": 0.65,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -27295,7 +27295,7 @@
       "PC"
     ],
     "basePrice": 11,
-    "discount": 0.65,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -27380,8 +27380,8 @@
       "独立",
       "模拟"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2438180/460727ca564c53e2982c03604b4a73ffe3d31074/header.jpg?t=1781693220",
-    "release_date": "即将推出"
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2438180/460727ca564c53e2982c03604b4a73ffe3d31074/header.jpg?t=1784531839",
+    "release_date": "即将宣布"
   },
   {
     "id": 2438110,
@@ -27420,7 +27420,7 @@
       "PC"
     ],
     "basePrice": 6,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -28097,7 +28097,7 @@
       "PC"
     ],
     "basePrice": 9.8,
-    "discount": 0,
+    "discount": 0.65,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -28559,7 +28559,7 @@
       "Linux"
     ],
     "basePrice": 58,
-    "discount": 0,
+    "discount": 0.4,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -29656,7 +29656,7 @@
       "模拟",
       "抢先体验"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2433230/73a5bcce516ca4372612639dc26f33893bec5a03/header.jpg?t=1780780862",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2433230/73a5bcce516ca4372612639dc26f33893bec5a03/header.jpg?t=1784564389",
     "release_date": "2024 年 1 月 5 日"
   },
   {
