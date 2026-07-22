@@ -22777,7 +22777,7 @@
       "PC"
     ],
     "basePrice": 6,
-    "discount": 0,
+    "discount": 0.35,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -23363,7 +23363,7 @@
       "独立"
     ],
     "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2449160/header_schinese.jpg?t=1750948909",
-    "release_date": "2025 年 2 ��� 5 日"
+    "release_date": "2025 年 2 月 5 日"
   },
   {
     "id": 2449080,
@@ -26094,7 +26094,7 @@
       "独立",
       "模拟"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2441700/header.jpg?t=1784221199",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2441700/4b53eb5ee6928e6f89ea20ddfb842160585e1dda/header.jpg?t=1784646594",
     "release_date": "2024 年 1 月 25 日"
   },
   {
@@ -29247,7 +29247,7 @@
       "PC"
     ],
     "basePrice": 78,
-    "discount": 0,
+    "discount": 0.7,
     "rating": 0,
     "dau": 0,
     "tags": [
