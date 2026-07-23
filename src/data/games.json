@@ -22331,7 +22331,7 @@
     "platforms": [
       "PC"
     ],
-    "basePrice": 11,
+    "basePrice": 6,
     "discount": 0,
     "rating": 0,
     "dau": 0,
@@ -22859,7 +22859,7 @@
       "Linux"
     ],
     "basePrice": 12,
-    "discount": 0,
+    "discount": 0.3,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22979,7 +22979,7 @@
       "策略"
     ],
     "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2450100/header_schinese.jpg?t=1714118717",
-    "release_date": "2024 年 3 月 24 日"
+    "release_date": "2024 年 3 月 25 日"
   },
   {
     "id": 2450080,
@@ -27396,7 +27396,7 @@
     "tags": [
       "模拟"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2438110/879ad47f6d0dff3ce63cb60aa18b3bb5cb61c843/header.jpg?t=1783591630",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2438110/879ad47f6d0dff3ce63cb60aa18b3bb5cb61c843/header.jpg?t=1784724142",
     "release_date": "2026 年 8 月"
   },
   {
@@ -29075,8 +29075,8 @@
       "冒险",
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2434330/2fcacf44e081e694ee858fb035cdde0dd1f516b9/header.jpg?t=1780905035",
-    "release_date": "2026 年 9 月 9 日"
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2434330/2fcacf44e081e694ee858fb035cdde0dd1f516b9/header.jpg?t=1784719470",
+    "release_date": "2026 年 9 月 16 日"
   },
   {
     "id": 2434300,
