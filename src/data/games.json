@@ -21607,7 +21607,7 @@
       "独立",
       "角色扮演"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2456160/header.jpg?t=1783527484",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2456160/header.jpg?t=1784880406",
     "release_date": "2024 年 5 月 12 日"
   },
   {
@@ -22073,7 +22073,7 @@
       "PC"
     ],
     "basePrice": 58,
-    "discount": 0.6,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22493,7 +22493,7 @@
       "PC"
     ],
     "basePrice": 6,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22826,7 +22826,7 @@
       "PC"
     ],
     "basePrice": 88,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -23950,7 +23950,7 @@
       "PC"
     ],
     "basePrice": 58,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -25045,7 +25045,7 @@
       "PC"
     ],
     "basePrice": 76,
-    "discount": 0,
+    "discount": 0.7,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26817,7 +26817,7 @@
       "PC"
     ],
     "basePrice": 26,
-    "discount": 0.25,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -27396,8 +27396,8 @@
     "tags": [
       "模拟"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2438110/879ad47f6d0dff3ce63cb60aa18b3bb5cb61c843/header.jpg?t=1784724142",
-    "release_date": "2026 年 8 月"
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2438110/879ad47f6d0dff3ce63cb60aa18b3bb5cb61c843/header.jpg?t=1784901896",
+    "release_date": "2026 年 8 月 13 日"
   },
   {
     "id": 2438060,
