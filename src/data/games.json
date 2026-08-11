@@ -20988,7 +20988,7 @@
       "PC"
     ],
     "basePrice": 42,
-    "discount": 0,
+    "discount": 0.7,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -21261,7 +21261,7 @@
       "Linux"
     ],
     "basePrice": 42,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22239,7 +22239,7 @@
       "Linux"
     ],
     "basePrice": 36,
-    "discount": 0,
+    "discount": 0.8,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22834,7 +22834,7 @@
       "独立",
       "模拟"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2451010/6e1e2954ab0412c5d16ab513a35179a65ac9c657/header.jpg?t=1785310531",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2451010/6e1e2954ab0412c5d16ab513a35179a65ac9c657/header.jpg?t=1786343521",
     "release_date": "2024 年 3 月 25 日"
   },
   {
@@ -23201,7 +23201,7 @@
       "PC"
     ],
     "basePrice": 68,
-    "discount": 0,
+    "discount": 0.3,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26001,7 +26001,7 @@
       "PC"
     ],
     "basePrice": 10,
-    "discount": 0,
+    "discount": 0.6,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26094,7 +26094,7 @@
       "独立",
       "模拟"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2441700/4b53eb5ee6928e6f89ea20ddfb842160585e1dda/header.jpg?t=1786284173",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2441700/4b53eb5ee6928e6f89ea20ddfb842160585e1dda/header.jpg?t=1786370744",
     "release_date": "2024 年 1 月 25 日"
   },
   {
@@ -26564,7 +26564,7 @@
       "PC"
     ],
     "basePrice": 36,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26619,7 +26619,7 @@
       "PC"
     ],
     "basePrice": 6,
-    "discount": 0.2,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26996,7 +26996,7 @@
       "PC"
     ],
     "basePrice": 33,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -27333,7 +27333,7 @@
       "PC"
     ],
     "basePrice": 42,
-    "discount": 0.3,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -27380,7 +27380,7 @@
       "独立",
       "模拟"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2438180/460727ca564c53e2982c03604b4a73ffe3d31074/header.jpg?t=1786271867",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2438180/460727ca564c53e2982c03604b4a73ffe3d31074/header.jpg?t=1786358399",
     "release_date": "即将推出"
   },
   {
@@ -27942,7 +27942,7 @@
       "PC"
     ],
     "basePrice": 6,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -28474,7 +28474,7 @@
       "PC"
     ],
     "basePrice": 18,
-    "discount": 0.7,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -29167,7 +29167,7 @@
       "体育",
       "抢先体验"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2434120/header.jpg?t=1778774646",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2434120/header.jpg?t=1786378381",
     "release_date": "2024 年 8 月 28 日"
   },
   {
