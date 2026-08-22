@@ -24233,7 +24233,7 @@
       "PC"
     ],
     "basePrice": 6,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24903,10 +24903,9 @@
     "id": 2444660,
     "title": "네개의 빛 : 제 1세계 [Iruka Route]",
     "platforms": [
-      "PC",
-      "Linux"
+      "PC"
     ],
-    "basePrice": 62,
+    "basePrice": 40,
     "discount": 0,
     "rating": 0,
     "dau": 0,
@@ -24914,7 +24913,7 @@
       "冒险",
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2444660/header.jpg?t=1785213117",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2444660/bc64c2b67c9bc7333aadb82f38bb26dc5d3bf15a/header.jpg?t=1787301514",
     "release_date": "2023 年 6 月 15 日"
   },
   {
@@ -29361,7 +29360,7 @@
       "PC"
     ],
     "basePrice": 18,
-    "discount": 0.81,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -29665,7 +29664,7 @@
       "PC"
     ],
     "basePrice": 18,
-    "discount": 0.25,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
