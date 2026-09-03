@@ -24896,7 +24896,7 @@
       "冒险",
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2444700/dc357f6137a11a1397cd6299155603728451d0a2/header.jpg?t=1788280669",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2444700/dc357f6137a11a1397cd6299155603728451d0a2/header.jpg?t=1788358629",
     "release_date": "2026 年 9 月 15 日"
   },
   {
@@ -27241,7 +27241,7 @@
       "PC"
     ],
     "basePrice": 76,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -28097,7 +28097,7 @@
       "PC"
     ],
     "basePrice": 9.8,
-    "discount": 0,
+    "discount": 0.65,
     "rating": 0,
     "dau": 0,
     "tags": [
