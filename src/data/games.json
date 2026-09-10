@@ -23157,8 +23157,8 @@
     "tags": [
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2449690/header.jpg?t=1775135967",
-    "release_date": "即将推出"
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2449690/header.jpg?t=1788939561",
+    "release_date": "即将宣布"
   },
   {
     "id": 2449680,
@@ -25248,7 +25248,7 @@
       "模拟",
       "抢先体验"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2443770/9c52a4dd88bf1f2c8b981993a421356a7f658156/header_schinese.jpg?t=1783527155",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2443770/9c52a4dd88bf1f2c8b981993a421356a7f658156/header_schinese.jpg?t=1788995670",
     "release_date": "2023 年 11 月 29 日"
   },
   {
@@ -29992,7 +29992,7 @@
       "PC"
     ],
     "basePrice": 76,
-    "discount": 0,
+    "discount": 0.6,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -30044,7 +30044,7 @@
       "PC"
     ],
     "basePrice": 33,
-    "discount": 0,
+    "discount": 0.4,
     "rating": 0,
     "dau": 0,
     "tags": [
