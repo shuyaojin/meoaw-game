@@ -21706,7 +21706,7 @@
       "Linux"
     ],
     "basePrice": 6,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22447,7 +22447,7 @@
       "冒险",
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453160/0970ad83a138f75b1e48e41780ff2eb5f1d21379/header.jpg?t=1779922216",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453160/0970ad83a138f75b1e48e41780ff2eb5f1d21379/header.jpg?t=1789223959",
     "release_date": "2025 年 8 月 19 日"
   },
   {
@@ -24784,9 +24784,10 @@
     "dau": 0,
     "tags": [
       "休闲",
-      "模拟"
+      "模拟",
+      "免费开玩"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2444890/header.jpg?t=1789152674",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2444890/header.jpg?t=1789242628",
     "release_date": "2023 年 6 月 11 日"
   },
   {
@@ -25536,7 +25537,7 @@
     "platforms": [
       "PC"
     ],
-    "basePrice": 29,
+    "basePrice": 22,
     "discount": 0,
     "rating": 0,
     "dau": 0,
@@ -27276,7 +27277,7 @@
       "PC"
     ],
     "basePrice": 42,
-    "discount": 0,
+    "discount": 0.75,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -27706,7 +27707,7 @@
       "冒险",
       "角色扮演"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2437550/c6a9de6e905806844f91c5203637c133349701dd/header.jpg?t=1785452209",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2437550/c6a9de6e905806844f91c5203637c133349701dd/header.jpg?t=1789209966",
     "release_date": "2027 年第四季度"
   },
   {
@@ -30044,7 +30045,7 @@
       "PC"
     ],
     "basePrice": 33,
-    "discount": 0.4,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
