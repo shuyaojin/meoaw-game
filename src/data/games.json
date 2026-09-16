@@ -22549,13 +22549,13 @@
       "PC"
     ],
     "basePrice": 11,
-    "discount": 0,
+    "discount": 0.72,
     "rating": 0,
     "dau": 0,
     "tags": [
       "休闲"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2452480/header.jpg?t=1777112562",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2452480/header.jpg?t=1789493002",
     "release_date": "2023 年 6 月 13 日"
   },
   {
@@ -24889,7 +24889,7 @@
     "platforms": [
       "PC"
     ],
-    "basePrice": 0,
+    "basePrice": 26,
     "discount": 0,
     "rating": 0,
     "dau": 0,
@@ -24897,7 +24897,7 @@
       "冒险",
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2444700/dc357f6137a11a1397cd6299155603728451d0a2/header.jpg?t=1789397306",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2444700/dc357f6137a11a1397cd6299155603728451d0a2/header.jpg?t=1789488023",
     "release_date": "2026 年 9 月 15 日"
   },
   {
@@ -25538,7 +25538,7 @@
       "PC"
     ],
     "basePrice": 22,
-    "discount": 0,
+    "discount": 0.1,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26271,7 +26271,7 @@
       "休闲",
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2441300/header.jpg?t=1789079510",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2441300/header.jpg?t=1789489142",
     "release_date": "2023 年 6 月 4 日"
   },
   {
@@ -27495,7 +27495,7 @@
       "PC"
     ],
     "basePrice": 22,
-    "discount": 0.2,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -29076,7 +29076,7 @@
       "冒险",
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2434330/2fcacf44e081e694ee858fb035cdde0dd1f516b9/header.jpg?t=1789380491",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2434330/2fcacf44e081e694ee858fb035cdde0dd1f516b9/header.jpg?t=1789495590",
     "release_date": "2026 年 9 月 16 日"
   },
   {
