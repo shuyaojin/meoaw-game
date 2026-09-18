@@ -22162,7 +22162,7 @@
       "PC"
     ],
     "basePrice": 30,
-    "discount": 0,
+    "discount": 0.9,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22834,7 +22834,7 @@
       "模拟",
       "体育"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2451010/6e1e2954ab0412c5d16ab513a35179a65ac9c657/header.jpg?t=1789598768",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2451010/6e1e2954ab0412c5d16ab513a35179a65ac9c657/header.jpg?t=1789639484",
     "release_date": "2024 年 3 月 25 日"
   },
   {
@@ -26815,7 +26815,8 @@
     "id": 2439810,
     "title": "The Adventures of Nerdstan",
     "platforms": [
-      "PC"
+      "PC",
+      "Mac"
     ],
     "basePrice": 26,
     "discount": 0,
@@ -26827,7 +26828,7 @@
       "休闲",
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2439810/4b5c948c9277345fbacfc67e2dac03e61d008cf4/header.jpg?t=1788412815",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2439810/4b5c948c9277345fbacfc67e2dac03e61d008cf4/header.jpg?t=1789647181",
     "release_date": "2024 年 6 月 17 日"
   },
   {
@@ -27042,7 +27043,7 @@
       "独立",
       "策略"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2439500/header.jpg?t=1780901519",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2439500/header.jpg?t=1789616736",
     "release_date": "2026 年第四季度"
   },
   {
@@ -27137,7 +27138,7 @@
       "Linux"
     ],
     "basePrice": 30,
-    "discount": 0,
+    "discount": 0.9,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -29076,7 +29077,7 @@
       "冒险",
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2434330/2fcacf44e081e694ee858fb035cdde0dd1f516b9/header.jpg?t=1789570613",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2434330/2fcacf44e081e694ee858fb035cdde0dd1f516b9/header.jpg?t=1789654401",
     "release_date": "2026 年 9 月 16 日"
   },
   {
@@ -29104,7 +29105,7 @@
       "PC"
     ],
     "basePrice": 11,
-    "discount": 0,
+    "discount": 0.4,
     "rating": 0,
     "dau": 0,
     "tags": [
