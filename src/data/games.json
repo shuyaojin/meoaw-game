@@ -21695,7 +21695,7 @@
       "动作",
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2455740/header.jpg?t=1730913469",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2455740/header.jpg?t=1789750346",
     "release_date": "即将宣布"
   },
   {
@@ -24959,7 +24959,7 @@
       "Linux"
     ],
     "basePrice": 22,
-    "discount": 0,
+    "discount": 0.3,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26818,7 +26818,7 @@
       "PC",
       "Mac"
     ],
-    "basePrice": 26,
+    "basePrice": 41,
     "discount": 0,
     "rating": 0,
     "dau": 0,
@@ -30121,7 +30121,7 @@
       "PC"
     ],
     "basePrice": 33,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
