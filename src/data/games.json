@@ -22239,7 +22239,7 @@
       "Linux"
     ],
     "basePrice": 36,
-    "discount": 0,
+    "discount": 0.75,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22596,7 +22596,7 @@
       "PC"
     ],
     "basePrice": 50,
-    "discount": 0.3,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22834,7 +22834,7 @@
       "模拟",
       "体育"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2451010/6e1e2954ab0412c5d16ab513a35179a65ac9c657/header.jpg?t=1789639484",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2451010/6e1e2954ab0412c5d16ab513a35179a65ac9c657/header.jpg?t=1790240610",
     "release_date": "2024 年 3 月 25 日"
   },
   {
@@ -23201,7 +23201,7 @@
       "PC"
     ],
     "basePrice": 68,
-    "discount": 0,
+    "discount": 0.3,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26352,7 +26352,7 @@
       "PC"
     ],
     "basePrice": 29,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -27278,7 +27278,7 @@
       "PC"
     ],
     "basePrice": 42,
-    "discount": 0.75,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -29070,7 +29070,7 @@
       "PC"
     ],
     "basePrice": 22,
-    "discount": 0.15,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -29519,7 +29519,7 @@
       "独立",
       "模拟"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2433560/1840c9280281269d2b29f545dd1f4b3872ee21e8/header.jpg?t=1786025659",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2433560/1840c9280281269d2b29f545dd1f4b3872ee21e8/header.jpg?t=1790255402",
     "release_date": "2026 年第四季度"
   },
   {
@@ -29994,7 +29994,7 @@
       "PC"
     ],
     "basePrice": 76,
-    "discount": 0.6,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
