@@ -21085,7 +21085,7 @@
       "PC"
     ],
     "basePrice": 6,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -21139,7 +21139,7 @@
       "PC"
     ],
     "basePrice": 58,
-    "discount": 0,
+    "discount": 0.35,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -21584,7 +21584,7 @@
       "PC"
     ],
     "basePrice": 6,
-    "discount": 0,
+    "discount": 0.49,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -21739,7 +21739,7 @@
       "PC"
     ],
     "basePrice": 18,
-    "discount": 0,
+    "discount": 0.81,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -21773,7 +21773,7 @@
       "PC"
     ],
     "basePrice": 108,
-    "discount": 0,
+    "discount": 0.8,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22023,7 +22023,7 @@
       "PC"
     ],
     "basePrice": 28,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22333,7 +22333,7 @@
       "PC"
     ],
     "basePrice": 6,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22475,7 +22475,7 @@
       "PC"
     ],
     "basePrice": 29,
-    "discount": 0,
+    "discount": 0.6,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24108,7 +24108,7 @@
       "PC"
     ],
     "basePrice": 26,
-    "discount": 0,
+    "discount": 0.6,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24942,7 +24942,7 @@
       "PC"
     ],
     "basePrice": 15,
-    "discount": 0,
+    "discount": 0.6,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -25376,7 +25376,7 @@
       "PC"
     ],
     "basePrice": 22,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26106,7 +26106,7 @@
       "PC"
     ],
     "basePrice": 6,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26211,7 +26211,7 @@
       "PC"
     ],
     "basePrice": 26,
-    "discount": 0,
+    "discount": 0.7,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26532,7 +26532,7 @@
       "PC"
     ],
     "basePrice": 42,
-    "discount": 0,
+    "discount": 0.75,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26854,7 +26854,7 @@
       "Mac"
     ],
     "basePrice": 12,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -27423,7 +27423,7 @@
       "PC"
     ],
     "basePrice": 6,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -27752,7 +27752,7 @@
       "PC"
     ],
     "basePrice": 47.99,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -29521,8 +29521,8 @@
       "模拟",
       "抢先体验"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2433560/8cfc2a7e0644c192260a97cb28c5593ca47c1667/header.jpg?t=1790850259",
-    "release_date": "2026 年 11 月"
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2433560/8cfc2a7e0644c192260a97cb28c5593ca47c1667/header.jpg?t=1791831212",
+    "release_date": "2026 年 11 月 5 日"
   },
   {
     "id": 2433520,
@@ -29813,7 +29813,7 @@
       "PC"
     ],
     "basePrice": 141,
-    "discount": 0,
+    "discount": 0.95,
     "rating": 0,
     "dau": 0,
     "tags": [
