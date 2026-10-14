@@ -21051,7 +21051,7 @@
     "platforms": [
       "PC"
     ],
-    "basePrice": 6,
+    "basePrice": 5,
     "discount": 0,
     "rating": 0,
     "dau": 0,
@@ -22723,8 +22723,8 @@
       "Mac",
       "Linux"
     ],
-    "basePrice": 30,
-    "discount": 0,
+    "basePrice": 5,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -27044,7 +27044,7 @@
       "独立",
       "策略"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2439500/header.jpg?t=1791428682",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2439500/header.jpg?t=1791884143",
     "release_date": "2026 年第四季度"
   },
   {
@@ -29521,7 +29521,7 @@
       "模拟",
       "抢先体验"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2433560/8cfc2a7e0644c192260a97cb28c5593ca47c1667/header.jpg?t=1791831212",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2433560/8cfc2a7e0644c192260a97cb28c5593ca47c1667/header.jpg?t=1791900591",
     "release_date": "2026 年 11 月 5 日"
   },
   {
