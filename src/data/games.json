@@ -23363,7 +23363,7 @@
       "休闲",
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2449160/header_schinese.jpg?t=1750948909",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2449160/header_schinese.jpg?t=1792781151",
     "release_date": "2025 年 2 月 5 日"
   },
   {
@@ -24194,8 +24194,8 @@
       "免费开玩",
       "抢先体验"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2446620/663200ce3f427c01f43e5cf0619945ce3420e9e1/header.jpg?t=1788266129",
-    "release_date": "即将推出"
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2446620/663200ce3f427c01f43e5cf0619945ce3420e9e1/header.jpg?t=1792752252",
+    "release_date": "即将宣布"
   },
   {
     "id": 2446580,
@@ -25172,7 +25172,7 @@
       "冒险",
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2443900/407692a5a297684fb476f895a019bd1fdae2ba9c/header.jpg?t=1792725282",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2443900/407692a5a297684fb476f895a019bd1fdae2ba9c/header.jpg?t=1792731334",
     "release_date": "2026 年 10 月 28 日"
   },
   {
@@ -26087,7 +26087,7 @@
       "PC"
     ],
     "basePrice": 108,
-    "discount": 0,
+    "discount": 0.33,
     "rating": 0,
     "dau": 0,
     "tags": [
