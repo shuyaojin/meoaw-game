@@ -20932,7 +20932,7 @@
       "PC"
     ],
     "basePrice": 48,
-    "discount": 0,
+    "discount": 0.7,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -20949,7 +20949,7 @@
       "PC"
     ],
     "basePrice": 42,
-    "discount": 0,
+    "discount": 0.8,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -21229,7 +21229,7 @@
       "Mac"
     ],
     "basePrice": 22,
-    "discount": 0.25,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -21501,7 +21501,7 @@
       "PC"
     ],
     "basePrice": 18,
-    "discount": 0,
+    "discount": 0.8,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -21518,7 +21518,7 @@
       "PC"
     ],
     "basePrice": 108,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22458,7 +22458,7 @@
       "PC"
     ],
     "basePrice": 69,
-    "discount": 0,
+    "discount": 0.3,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22915,7 +22915,7 @@
       "PC"
     ],
     "basePrice": 23,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -23788,7 +23788,7 @@
       "PC"
     ],
     "basePrice": 18,
-    "discount": 0,
+    "discount": 0.75,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24058,7 +24058,7 @@
       "PC"
     ],
     "basePrice": 22,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24763,14 +24763,14 @@
       "PC"
     ],
     "basePrice": 6,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
       "动作",
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2444960/header.jpg?t=1687159351",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2444960/header.jpg?t=1793009799",
     "release_date": "2023 年 6 月 19 日"
   },
   {
@@ -24891,7 +24891,7 @@
       "PC"
     ],
     "basePrice": 26,
-    "discount": 0,
+    "discount": 0.2,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24960,7 +24960,7 @@
       "Linux"
     ],
     "basePrice": 22,
-    "discount": 0,
+    "discount": 0.3,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -25863,7 +25863,7 @@
       "PC"
     ],
     "basePrice": 21.71,
-    "discount": 0,
+    "discount": 0.75,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -25966,7 +25966,7 @@
       "PC"
     ],
     "basePrice": 15,
-    "discount": 0,
+    "discount": 0.4,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26096,7 +26096,7 @@
       "独立",
       "模拟"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2441700/4b53eb5ee6928e6f89ea20ddfb842160585e1dda/header.jpg?t=1792858785",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2441700/4b53eb5ee6928e6f89ea20ddfb842160585e1dda/header.jpg?t=1793030285",
     "release_date": "2024 年 1 月 25 日"
   },
   {
@@ -27298,7 +27298,7 @@
       "PC"
     ],
     "basePrice": 11,
-    "discount": 0,
+    "discount": 0.68,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -28460,7 +28460,7 @@
       "PC"
     ],
     "basePrice": 26,
-    "discount": 0,
+    "discount": 0.75,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -28477,7 +28477,7 @@
       "PC"
     ],
     "basePrice": 18,
-    "discount": 0,
+    "discount": 0.7,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -28980,7 +28980,7 @@
       "PC"
     ],
     "basePrice": 11,
-    "discount": 0,
+    "discount": 0.65,
     "rating": 0,
     "dau": 0,
     "tags": [
