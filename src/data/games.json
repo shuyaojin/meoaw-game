@@ -21636,7 +21636,7 @@
       "PC"
     ],
     "basePrice": 6,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -21707,7 +21707,7 @@
       "Linux"
     ],
     "basePrice": 6,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22162,7 +22162,7 @@
     "platforms": [
       "PC"
     ],
-    "basePrice": 30,
+    "basePrice": 25,
     "discount": 0,
     "rating": 0,
     "dau": 0,
@@ -22441,14 +22441,14 @@
       "PC"
     ],
     "basePrice": 108,
-    "discount": 0,
+    "discount": 0.3,
     "rating": 0,
     "dau": 0,
     "tags": [
       "冒险",
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453160/0970ad83a138f75b1e48e41780ff2eb5f1d21379/header.jpg?t=1789223959",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453160/0970ad83a138f75b1e48e41780ff2eb5f1d21379/header.jpg?t=1793291257",
     "release_date": "2025 年 8 月 19 日"
   },
   {
@@ -23243,7 +23243,7 @@
       "角色扮演",
       "模拟"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2449400/header.jpg?t=1790810505",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2449400/header.jpg?t=1793295233",
     "release_date": "即将推出"
   },
   {
@@ -23970,7 +23970,7 @@
       "PC"
     ],
     "basePrice": 15,
-    "discount": 0,
+    "discount": 0.3,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26265,7 +26265,7 @@
       "PC"
     ],
     "basePrice": 11,
-    "discount": 0.72,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -27138,7 +27138,7 @@
       "Mac",
       "Linux"
     ],
-    "basePrice": 30,
+    "basePrice": 25,
     "discount": 0,
     "rating": 0,
     "dau": 0,
