@@ -21600,7 +21600,7 @@
       "PC"
     ],
     "basePrice": 48,
-    "discount": 0,
+    "discount": 0.35,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -21763,7 +21763,7 @@
       "独立",
       "角色扮演"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2455380/69cf557af7c46f8be34be09428c323af1de2a121/header.jpg?t=1791144898",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2455380/69cf557af7c46f8be34be09428c323af1de2a121/header.jpg?t=1793382802",
     "release_date": "即将推出"
   },
   {
@@ -22297,7 +22297,7 @@
       "PC"
     ],
     "basePrice": 22,
-    "discount": 0,
+    "discount": 0.8,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22556,7 +22556,7 @@
     "tags": [
       "休闲"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2452480/header.jpg?t=1789493002",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2452480/header.jpg?t=1793381532",
     "release_date": "2023 年 6 月 13 日"
   },
   {
@@ -24107,7 +24107,7 @@
     "platforms": [
       "PC"
     ],
-    "basePrice": 26,
+    "basePrice": 0,
     "discount": 0,
     "rating": 0,
     "dau": 0,
@@ -24117,7 +24117,7 @@
       "休闲",
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2446740/header.jpg?t=1751467648",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2446740/header.jpg?t=1793361679",
     "release_date": "2023 年 10 月 20 日"
   },
   {
@@ -28100,7 +28100,7 @@
       "PC"
     ],
     "basePrice": 9.8,
-    "discount": 0.65,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
