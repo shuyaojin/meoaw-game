@@ -20932,7 +20932,7 @@
       "PC"
     ],
     "basePrice": 48,
-    "discount": 0.7,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -20949,7 +20949,7 @@
       "PC"
     ],
     "basePrice": 42,
-    "discount": 0.8,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -20988,7 +20988,7 @@
       "PC"
     ],
     "basePrice": 42,
-    "discount": 0,
+    "discount": 0.7,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -21104,7 +21104,7 @@
       "PC"
     ],
     "basePrice": 29,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -21262,7 +21262,7 @@
       "Linux"
     ],
     "basePrice": 42,
-    "discount": 0,
+    "discount": 0.11,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -21297,7 +21297,7 @@
       "PC"
     ],
     "basePrice": 11,
-    "discount": 0.73,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -21501,7 +21501,7 @@
       "PC"
     ],
     "basePrice": 18,
-    "discount": 0.8,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -21518,7 +21518,7 @@
       "PC"
     ],
     "basePrice": 108,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22145,7 +22145,7 @@
       "PC"
     ],
     "basePrice": 15.49,
-    "discount": 0,
+    "discount": 0.7,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22183,7 +22183,7 @@
       "PC"
     ],
     "basePrice": 11.59,
-    "discount": 0,
+    "discount": 0.7,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22458,7 +22458,7 @@
       "PC"
     ],
     "basePrice": 69,
-    "discount": 0.3,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22556,7 +22556,7 @@
     "tags": [
       "休闲"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2452480/header.jpg?t=1793381532",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2452480/header.jpg?t=1793671384",
     "release_date": "2023 年 6 月 13 日"
   },
   {
@@ -23083,7 +23083,7 @@
       "Linux"
     ],
     "basePrice": 22,
-    "discount": 0,
+    "discount": 0.6,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -23788,7 +23788,7 @@
       "PC"
     ],
     "basePrice": 18,
-    "discount": 0.75,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24058,7 +24058,7 @@
       "PC"
     ],
     "basePrice": 22,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24640,7 +24640,7 @@
       "PC"
     ],
     "basePrice": 22,
-    "discount": 0,
+    "discount": 0.4,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24764,7 +24764,7 @@
       "PC"
     ],
     "basePrice": 6,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24892,7 +24892,7 @@
       "PC"
     ],
     "basePrice": 26,
-    "discount": 0.2,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24961,7 +24961,7 @@
       "Linux"
     ],
     "basePrice": 22,
-    "discount": 0.3,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -25864,7 +25864,7 @@
       "PC"
     ],
     "basePrice": 21.71,
-    "discount": 0.75,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -25967,7 +25967,7 @@
       "PC"
     ],
     "basePrice": 15,
-    "discount": 0.4,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26004,7 +26004,7 @@
       "PC"
     ],
     "basePrice": 10,
-    "discount": 0,
+    "discount": 0.6,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -27280,7 +27280,7 @@
       "PC"
     ],
     "basePrice": 42,
-    "discount": 0,
+    "discount": 0.75,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -27299,7 +27299,7 @@
       "PC"
     ],
     "basePrice": 11,
-    "discount": 0.68,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -28255,7 +28255,7 @@
       "休闲",
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2435920/header.jpg?t=1722848623",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2435920/header.jpg?t=1793629437",
     "release_date": "2024 年 8 月 5 日"
   },
   {
@@ -28461,7 +28461,7 @@
       "PC"
     ],
     "basePrice": 26,
-    "discount": 0.75,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -28478,7 +28478,7 @@
       "PC"
     ],
     "basePrice": 18,
-    "discount": 0.7,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -28981,7 +28981,7 @@
       "PC"
     ],
     "basePrice": 11,
-    "discount": 0.65,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -30086,7 +30086,7 @@
       "PC"
     ],
     "basePrice": 18,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -30124,7 +30124,7 @@
       "PC"
     ],
     "basePrice": 33,
-    "discount": 0.4,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
