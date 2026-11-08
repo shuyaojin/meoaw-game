@@ -23749,7 +23749,7 @@
       "PC"
     ],
     "basePrice": 49.9,
-    "discount": 0,
+    "discount": 0.42,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24916,7 +24916,7 @@
       "冒险",
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2444660/bc64c2b67c9bc7333aadb82f38bb26dc5d3bf15a/header.jpg?t=1794020021",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2444660/bc64c2b67c9bc7333aadb82f38bb26dc5d3bf15a/header.jpg?t=1794031030",
     "release_date": "2023 年 6 月 15 日"
   },
   {
@@ -28633,7 +28633,7 @@
       "Mac"
     ],
     "basePrice": 33,
-    "discount": 0,
+    "discount": 0.7,
     "rating": 0,
     "dau": 0,
     "tags": [
