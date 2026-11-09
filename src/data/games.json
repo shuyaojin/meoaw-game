@@ -2451,7 +2451,7 @@
       "Linux"
     ],
     "basePrice": 42,
-    "discount": 0,
+    "discount": 0.4,
     "rating": 8.3,
     "dau": 0,
     "tags": [
@@ -27045,7 +27045,7 @@
       "独立",
       "策略"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2439500/header.jpg?t=1793424842",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2439500/header.jpg?t=1794196300",
     "release_date": "2026 年 11 月 12 日"
   },
   {
@@ -28492,7 +28492,9 @@
     "id": 2435520,
     "title": "Avalanca",
     "platforms": [
-      "PC"
+      "PC",
+      "Mac",
+      "Linux"
     ],
     "basePrice": 0,
     "discount": 0,
@@ -28505,7 +28507,7 @@
       "竞速",
       "体育"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2435520/header.jpg?t=1684293466",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2435520/header.jpg?t=1794176282",
     "release_date": "即将推出"
   },
   {
