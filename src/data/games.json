@@ -20988,7 +20988,7 @@
       "PC"
     ],
     "basePrice": 42,
-    "discount": 0.7,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -21069,7 +21069,7 @@
       "Mac"
     ],
     "basePrice": 18,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -21104,7 +21104,7 @@
       "PC"
     ],
     "basePrice": 29,
-    "discount": 0.5,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -21262,7 +21262,7 @@
       "Linux"
     ],
     "basePrice": 42,
-    "discount": 0.11,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22145,7 +22145,7 @@
       "PC"
     ],
     "basePrice": 15.49,
-    "discount": 0.7,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22183,7 +22183,7 @@
       "PC"
     ],
     "basePrice": 11.59,
-    "discount": 0.7,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -23083,7 +23083,7 @@
       "Linux"
     ],
     "basePrice": 22,
-    "discount": 0.6,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24234,7 +24234,7 @@
       "PC"
     ],
     "basePrice": 6,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24640,7 +24640,7 @@
       "PC"
     ],
     "basePrice": 22,
-    "discount": 0.4,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26004,7 +26004,7 @@
       "PC"
     ],
     "basePrice": 10,
-    "discount": 0.6,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26567,7 +26567,7 @@
       "PC"
     ],
     "basePrice": 36,
-    "discount": 0,
+    "discount": 0.55,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26576,7 +26576,7 @@
       "角色扮演",
       "策略"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2440380/header.jpg?t=1778001282",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2440380/header.jpg?t=1794244858",
     "release_date": "2024 年 8 月 30 日"
   },
   {
@@ -26984,7 +26984,7 @@
       "PC"
     ],
     "basePrice": 33,
-    "discount": 0,
+    "discount": 0.6,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -27375,7 +27375,7 @@
       "PC"
     ],
     "basePrice": 59,
-    "discount": 0,
+    "discount": 0.1,
     "rating": 0,
     "dau": 0,
     "tags": [
