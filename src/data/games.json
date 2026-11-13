@@ -22250,7 +22250,7 @@
       "角色扮演",
       "策略"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453610/header_schinese.jpg?t=1787932905",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453610/header_schinese.jpg?t=1794502434",
     "release_date": "2024 年 7 月 29 日"
   },
   {
@@ -22441,7 +22441,7 @@
       "PC"
     ],
     "basePrice": 108,
-    "discount": 0.3,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -26097,7 +26097,7 @@
       "独立",
       "模拟"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2441700/4b53eb5ee6928e6f89ea20ddfb842160585e1dda/header.jpg?t=1794391694",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2441700/7c6d4aee3cd8ec7a7eb7bbeef2f0dacea8230533/header.jpg?t=1794506750",
     "release_date": "2024 年 1 月 25 日"
   },
   {
@@ -27036,8 +27036,8 @@
     "platforms": [
       "PC"
     ],
-    "basePrice": 0,
-    "discount": 0,
+    "basePrice": 48,
+    "discount": 0.1,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -27045,7 +27045,7 @@
       "独立",
       "策略"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2439500/header.jpg?t=1794399985",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2439500/header.jpg?t=1794538855",
     "release_date": "2026 年 11 月 12 日"
   },
   {
@@ -27794,7 +27794,7 @@
       "策略",
       "抢先体验"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2437330/header.jpg?t=1790014198",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2437330/header.jpg?t=1794509962",
     "release_date": "2025 年 2 月 10 日"
   },
   {
@@ -29524,7 +29524,7 @@
       "模拟",
       "抢先体验"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2433560/8cfc2a7e0644c192260a97cb28c5593ca47c1667/header.jpg?t=1793898130",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2433560/8cfc2a7e0644c192260a97cb28c5593ca47c1667/header.jpg?t=1794491603",
     "release_date": "2026 年 11 月 5 日"
   },
   {
@@ -30133,7 +30133,7 @@
       "模拟",
       "抢先体验"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2431730/5f9423463602159523e0d41d527c716751c4938c/header.jpg?t=1779070201",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2431730/5f9423463602159523e0d41d527c716751c4938c/header.jpg?t=1794531907",
     "release_date": "2023 年 6 月 14 日"
   },
   {
