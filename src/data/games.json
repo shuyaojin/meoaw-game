@@ -22597,7 +22597,7 @@
       "PC"
     ],
     "basePrice": 50,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -23210,7 +23210,7 @@
       "独立",
       "角色扮演"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2449530/header_schinese.jpg?t=1788919346",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2449530/header_schinese.jpg?t=1794968778",
     "release_date": "2024 年 12 月 13 日"
   },
   {
@@ -26830,7 +26830,7 @@
       "休闲",
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2439810/4b5c948c9277345fbacfc67e2dac03e61d008cf4/header.jpg?t=1790609732",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2439810/4b5c948c9277345fbacfc67e2dac03e61d008cf4/header.jpg?t=1794916556",
     "release_date": "2024 年 6 月 17 日"
   },
   {
@@ -27045,7 +27045,7 @@
       "独立",
       "策略"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2439500/header.jpg?t=1794645054",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2439500/header.jpg?t=1794921501",
     "release_date": "2026 年 11 月 12 日"
   },
   {
@@ -28506,7 +28506,7 @@
       "竞速",
       "体育"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2435520/header.jpg?t=1794176282",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2435520/6c0890d7458636446245b576adcf70cc2dd3222e/header.jpg?t=1794930564",
     "release_date": "即将推出"
   },
   {
@@ -29998,7 +29998,7 @@
       "PC"
     ],
     "basePrice": 76,
-    "discount": 0,
+    "discount": 0.6,
     "rating": 0,
     "dau": 0,
     "tags": [
