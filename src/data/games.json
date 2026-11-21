@@ -22860,7 +22860,7 @@
       "Linux"
     ],
     "basePrice": 12,
-    "discount": 0,
+    "discount": 0.15,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24155,7 +24155,7 @@
       "休闲",
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2446700/47e0c938054d4984b90ee87074a55becfc31ac15/header.jpg?t=1779311014",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2446700/47e0c938054d4984b90ee87074a55becfc31ac15/header.jpg?t=1795156355",
     "release_date": "2024 年 4 月 24 日"
   },
   {
