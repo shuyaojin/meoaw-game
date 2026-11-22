@@ -21927,7 +21927,7 @@
       "角色扮演",
       "抢先体验"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2454510/header_schinese.jpg?t=1685990448",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2454510/header_schinese.jpg?t=1795273685",
     "release_date": "即将推出"
   },
   {
@@ -22724,7 +22724,7 @@
       "Linux"
     ],
     "basePrice": 5,
-    "discount": 0,
+    "discount": 0.5,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -23447,7 +23447,7 @@
       "Mac",
       "Linux"
     ],
-    "basePrice": 56,
+    "basePrice": 39,
     "discount": 0,
     "rating": 0,
     "dau": 0,
@@ -23455,7 +23455,7 @@
       "冒险",
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2448830/header.jpg?t=1765727368",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2448830/510cba3b33bc5cccace019dec99831a7a31bc81c/header.jpg?t=1795241860",
     "release_date": "2024 年 1 月 11 日"
   },
   {
@@ -23749,7 +23749,7 @@
       "PC"
     ],
     "basePrice": 49.9,
-    "discount": 0.42,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24147,7 +24147,7 @@
       "PC"
     ],
     "basePrice": 26,
-    "discount": 0,
+    "discount": 0.6,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24325,7 +24325,7 @@
       "Linux"
     ],
     "basePrice": 11,
-    "discount": 0,
+    "discount": 0.4,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -24630,7 +24630,7 @@
       "角色扮演",
       "策略"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2445200/e2378d29a0501bfda923b43060d890bf6c6ec73d/header.jpg?t=1795148431",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2445200/e2378d29a0501bfda923b43060d890bf6c6ec73d/header.jpg?t=1795273988",
     "release_date": "2027 年第二季度"
   },
   {
@@ -27384,7 +27384,7 @@
       "独立",
       "模拟"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2438180/460727ca564c53e2982c03604b4a73ffe3d31074/header.jpg?t=1791461531",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2438180/460727ca564c53e2982c03604b4a73ffe3d31074/header.jpg?t=1795249945",
     "release_date": "2026 年 9 月 24 日"
   },
   {
