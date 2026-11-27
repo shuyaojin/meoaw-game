@@ -22220,7 +22220,7 @@
       "Mac"
     ],
     "basePrice": 48,
-    "discount": 0.35,
+    "discount": 0,
     "rating": 0,
     "dau": 0,
     "tags": [
@@ -22556,7 +22556,7 @@
     "tags": [
       "休闲"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2452480/07b4267dc2714741f6b56bb664a8ebef4c4d75c3/header.jpg?t=1795665156",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2452480/f074bfcc0f39704e11ff35751b1d226456c07a37/header.jpg?t=1795750624",
     "release_date": "2023 年 6 月 13 日"
   },
   {
@@ -25316,7 +25316,7 @@
     "tags": [
       "独立"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2443550/header.jpg?t=1792870310",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2443550/header.jpg?t=1795734826",
     "release_date": "2023 年 6 月 16 日"
   },
   {
@@ -27384,7 +27384,7 @@
       "独立",
       "模拟"
     ],
-    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2438180/460727ca564c53e2982c03604b4a73ffe3d31074/header.jpg?t=1795249945",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2438180/460727ca564c53e2982c03604b4a73ffe3d31074/header.jpg?t=1795751353",
     "release_date": "2026 年 9 月 24 日"
   },
   {
